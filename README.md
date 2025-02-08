@@ -1,8 +1,8 @@
 To use the library, just clone it and then set the KICAD_CONFIG_HOME to the path where the `config` folder is.
 For example:
 
-  git clone git@github.com:tcpluess/kicadlib.git
-  export KICAD_CONFIG_HOME="/home/tobias/kicadlib/config/"
+    git clone git@github.com:tcpluess/kicadlib.git
+    export KICAD_CONFIG_HOME="/home/tobias/kicadlib/config/"
 
 From now on, KICAD will use all Symbols, Colors, Footprints, and Sheet Templates from the cloned library.
 
