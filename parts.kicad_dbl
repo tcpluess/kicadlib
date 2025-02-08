@@ -1,0 +1,1844 @@
+{
+    "meta": {
+        "version": 0,
+        "filename": "parts.kicad_dbl"
+    },
+    "name": "TP's Part Database",
+    "description": "Part Database",
+    "source": {
+        "type": "odbc",
+        "dsn": "",
+        "username": "",
+        "password": "",
+        "timeout_seconds": 2,
+        /*"connection_string": "DSN=KiCad_DB"*/
+        "connection_string": "Driver={SQLite3};Database=${CWD}/parts.sqlite"
+    },
+    "libraries":
+    [
+        {
+            "name": "ADCs",
+            "table": "ADC",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Capacitors_Ceramic",
+            "table": "Capacitors - Ceramic",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Capacitors_Electrolytic",
+            "table": "Capacitors - Electrolytic",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Capacitors_Misc",
+            "table": "Capacitors - Misc",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Capacitors_Tantalum",
+            "table": "Capacitors - Tantalum",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Comparators",
+            "table": "Comparators",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Connectors",
+            "table": "Connectors",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Crystals",
+            "table": "Crystals",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "DACs",
+            "table": "DAC",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Diodes",
+            "table": "Diodes",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Drivers",
+            "table": "Drivers",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "EMI",
+            "table": "EMI",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Ferrites",
+            "table": "Ferrite Beads",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Inductors",
+            "table": "Inductors",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Interface",
+            "table": "Interface",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Logic",
+            "table": "Logic",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Mechanical",
+            "table": "Mechanical",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Memory",
+            "table": "Memory",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Microcontrollers",
+            "table": "Microcontrollers",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Misc",
+            "table": "Misc",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "OpAmps",
+            "table": "OpAmps",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Optoelectronics",
+            "table": "Optoelectronics",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Oscillators",
+            "table": "Oscillators",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Reference",
+            "table": "Reference",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Resistors",
+            "table": "Resistors",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "SAW",
+            "table": "SAW",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Switches",
+            "table": "Switches",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Transistors",
+            "table": "Transistors",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Voltreg",
+            "table": "Voltreg",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Mixers",
+            "table": "Mixers",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "RF Amplifiers",
+            "table": "RF Amplifiers",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Potentiometers",
+            "table": "Potentiometers",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        }
+    ]
+}

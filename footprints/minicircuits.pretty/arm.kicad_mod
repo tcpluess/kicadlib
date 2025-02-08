@@ -1,0 +1,12 @@
+(footprint "arm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 400b5b55-934e-4123-a495-530ac399e70c)
+  )
+  (fp_text value "arm" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 0c435aad-93a9-4fb1-92cb-7445ae08c4a8)
+  )
+)

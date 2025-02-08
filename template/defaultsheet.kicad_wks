@@ -1,0 +1,425 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "8.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 15)
+		(right_margin 5)
+		(top_margin 5)
+		(bottom_margin 5)
+	)
+	(rect
+		(name "")
+		(start 5 5 lbcorner)
+		(end 5 5 rtcorner)
+		(linewidth 0.7)
+	)
+	(rect
+		(name "")
+		(start 0 0 lbcorner)
+		(end 0 0 rtcorner)
+		(linewidth 0.35)
+	)
+	(line
+		(name "")
+		(start 5 51.16 ltcorner)
+		(end 0 51.16 ltcorner)
+		(linewidth 0.35)
+		(repeat 5)
+		(incry 46.16)
+	)
+	(line
+		(name "")
+		(start 53.75 5 ltcorner)
+		(end 53.75 0 ltcorner)
+		(linewidth 0.35)
+		(repeat 7)
+		(incrx 48.75)
+	)
+	(line
+		(name "")
+		(start 5 51.16 rtcorner)
+		(end 0 51.16 rtcorner)
+		(linewidth 0.35)
+		(repeat 5)
+		(incry 46.16)
+	)
+	(line
+		(name "")
+		(start 53.75 5 lbcorner)
+		(end 53.75 0 lbcorner)
+		(linewidth 0.35)
+		(repeat 7)
+		(incrx 48.75)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 29.375 2.5 ltcorner)
+		(font
+			(face "osifont")
+			(size 3 3)
+		)
+		(justify center)
+		(repeat 8)
+		(incrx 48.75)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 29.375 2.5 lbcorner)
+		(font
+			(face "osifont")
+			(size 3 3)
+		)
+		(justify center)
+		(repeat 8)
+		(incrx 48.75)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 2.5 28.08 ltcorner)
+		(font
+			(face "osifont")
+			(size 3 3)
+		)
+		(justify center)
+		(repeat 6)
+		(incry 46.16)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 2.5 28.08 rtcorner)
+		(font
+			(face "osifont")
+			(size 3 3)
+		)
+		(justify center)
+		(repeat 6)
+		(incry 46.16)
+	)
+	(rect
+		(name "")
+		(start 5 5)
+		(end 185 50)
+		(linewidth 0.7)
+	)
+	(tbtext "Sheet"
+		(name "")
+		(pos 90 45)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+		(justify center)
+	)
+	(tbtext "${#}/${##}"
+		(name "")
+		(pos 90 40)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+		(justify center)
+	)
+	(tbtext "Size"
+		(name "")
+		(pos 110 45)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+		(justify center)
+	)
+	(tbtext "${PAPER}"
+		(name "")
+		(pos 110 40)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+		(justify center)
+	)
+	(tbtext "${DOCUMENT_NR}"
+		(name "")
+		(pos 67 12.5)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+		(comment "Comment 0")
+	)
+	(tbtext "${COMPANYNAME}"
+		(name "")
+		(pos 117 28)
+		(font
+			(face "osifont")
+			(size 3.5 3.5) bold)
+		(comment "Company name")
+	)
+	(tbtext "${COMPANY_LINE2}"
+		(name "")
+		(pos 117 21)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+	)
+	(tbtext "${COMPANY_LINE3}"
+		(name "")
+		(pos 117 14)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+	)
+	(line
+		(name "")
+		(start 70 20)
+		(end 5 20)
+		(linewidth 0.35)
+	)
+	(line
+		(name "")
+		(start 70 35)
+		(end 70 5)
+		(linewidth 0.35)
+	)
+	(line
+		(name "")
+		(start 100 50)
+		(end 100 35)
+		(linewidth 0.35)
+	)
+	(line
+		(name "")
+		(start 185 35)
+		(end 5 35)
+		(linewidth 0.35)
+	)
+	(tbtext "${EDIT_DATE}"
+		(name "")
+		(pos 24 42.5)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+	)
+	(tbtext "${CHECK_DATE}"
+		(name "")
+		(pos 24 37.5)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+	)
+	(tbtext "${EDIT_NAME}"
+		(name "")
+		(pos 45 42.5)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+	)
+	(tbtext "${CHECK_NAME}"
+		(name "")
+		(pos 45 37.5)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+	)
+	(tbtext "${TITLE}"
+		(name "")
+		(pos 67 30)
+		(font
+			(face "osifont")
+			(size 3.5 3.5) bold)
+	)
+	(tbtext "${SUBTITLE}"
+		(name "")
+		(pos 67 24)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+	)
+	(line
+		(name "")
+		(start 185 40)
+		(end 120 40)
+		(linewidth 0.35)
+	)
+	(line
+		(name "")
+		(start 120 50)
+		(end 120 5)
+		(linewidth 0.35)
+	)
+	(tbtext "Rev"
+		(name "")
+		(pos 181 7.5)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+		(justify center)
+	)
+	(tbtext "Change"
+		(name "")
+		(pos 175 7.5)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+	)
+	(tbtext "Name"
+		(name "")
+		(pos 133 7.5)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+	)
+	(line
+		(name "")
+		(start 185 10)
+		(end 120 10)
+		(linewidth 0.35)
+	)
+	(line
+		(name "")
+		(start 177 50)
+		(end 177 5)
+		(linewidth 0.35)
+	)
+	(line
+		(name "")
+		(start 135 50)
+		(end 135 5)
+		(linewidth 0.35)
+	)
+	(line
+		(name "")
+		(start 185 15)
+		(end 120 15)
+		(linewidth 0.35)
+	)
+	(line
+		(name "")
+		(start 185 20)
+		(end 120 20)
+		(linewidth 0.35)
+	)
+	(line
+		(name "")
+		(start 120 25)
+		(end 185 25)
+		(linewidth 0.35)
+	)
+	(line
+		(name "")
+		(start 185 30)
+		(end 120 30)
+		(linewidth 0.35)
+	)
+	(line
+		(name "")
+		(start 185 35)
+		(end 120 35)
+		(linewidth 0.35)
+	)
+	(tbtext "Edited"
+		(name "")
+		(pos 63 42.5)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+	)
+	(tbtext "Checked"
+		(name "")
+		(pos 63 37.5)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+	)
+	(line
+		(name "")
+		(start 26 50)
+		(end 26 35)
+		(linewidth 0.35)
+	)
+	(tbtext "Date"
+		(name "")
+		(pos 24 47.5)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+	)
+	(line
+		(name "")
+		(start 47 50)
+		(end 47 35)
+		(linewidth 0.35)
+	)
+	(tbtext "Name"
+		(name "")
+		(pos 45 47.5)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+	)
+	(line
+		(name "")
+		(start 185 45)
+		(end 120 45)
+		(linewidth 0.35)
+	)
+	(line
+		(name "")
+		(start 80 50)
+		(end 80 35)
+		(linewidth 0.35)
+	)
+	(line
+		(name "")
+		(start 65 40)
+		(end 5 40)
+		(linewidth 0.35)
+	)
+	(line
+		(name "")
+		(start 65 45)
+		(end 5 45)
+		(linewidth 0.35)
+	)
+	(line
+		(name "")
+		(start 65 50)
+		(end 65 35)
+		(linewidth 0.35)
+	)
+	(tbtext "Rev"
+		(name "")
+		(pos 72.5 45)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+		(justify center)
+	)
+	(tbtext "${REVISION}"
+		(name "")
+		(pos 72.5 40)
+		(font
+			(face "osifont")
+			(size 2.5 2.5)
+		)
+		(justify center)
+	)
+)

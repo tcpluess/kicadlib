@@ -1,0 +1,7 @@
+(version 1)
+
+(rule "thermal spoke width"
+   (constraint thermal_spoke_width (min 0.2mm)))
+
+(rule "thermal relief gap"
+   (constraint thermal_relief_gap (min 0.2mm)))
