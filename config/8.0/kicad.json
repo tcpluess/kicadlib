@@ -60,14 +60,18 @@
     "check_for_kicad_updates": true,
     "check_for_updates": 1,
     "file_history": [
+      "/storage/work/users/pluess/electronics/vacuumgauge/mainboard/mainboard.kicad_pro",
+      "/storage/work/users/pluess/electronics/vacuumgauge/displayboard/displayboard.kicad_pro",
+      "/storage/work/users/pluess/electronics/22ghz-mixer-experiment/22ghz_mixer/22ghz_mixer.kicad_pro"
     ],
     "first_run_shown": false,
     "last_imperial_units": 0,
     "last_metric_units": 1,
     "last_received_update": "",
-    "last_update_check_time": "2025-02-08T17:12:26",
+    "last_update_check_time": "2025-03-28T15:33:20",
     "max_undo_items": 0,
     "open_projects": [
+      "/storage/work/users/pluess/electronics/vacuumgauge/mainboard/mainboard.kicad_pro"
     ],
     "show_import_issues": true,
     "units": 1
@@ -77,7 +81,7 @@
       "always_show_cursor": true,
       "fullscreen_cursor": false
     },
-    "display": 0,
+    "display": 1,
     "grid": {
       "axes_enabled": false,
       "fast_grid_1": 4,
@@ -215,8 +219,9 @@
       "user_grid_y": "10 mil"
     },
     "maximized": true,
-    "perspective": "layout2|name=MainToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=227;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ProjectTree;caption=Project Files;state=1532;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Launcher;caption=Editors;state=508;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=622;besth=650;minw=622;minh=650;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,2,0)=34|dock_size(4,1,0)=250|dock_size(5,0,0)=622|",
-    "pos_x": 0,
+    "mru_path": "/storage/work/users/pluess/electronics/vacuumgauge/mainboard/",
+    "perspective": "layout2|name=MainToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=227;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ProjectTree;caption=Project Files;state=1532;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Launcher;caption=Editors;state=508;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=583;besth=542;minw=583;minh=542;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,2,0)=34|dock_size(4,1,0)=250|dock_size(5,0,0)=583|",
+    "pos_x": 1920,
     "pos_y": 27,
     "size_x": 1922,
     "size_y": 1027,

@@ -221,7 +221,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 -3.81) (xy -5.08 -2.54) (xy -7.62 -2.54) (xy -7.62 22.86) (xy 7.62 22.86) (xy 7.62 -2.54)
+					(xy -5.08 -3.81) (xy -5.08 -2.54) (xy -7.62 -2.54) (xy -7.62 25.4) (xy 7.62 25.4) (xy 7.62 -2.54)
 					(xy 5.08 -2.54) (xy 5.08 -3.81)
 				)
 				(stroke
@@ -271,7 +271,7 @@
 				)
 			)
 			(text "EIA232"
-				(at 0 20.32 0)
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 2.54 2.54)
@@ -279,7 +279,7 @@
 				)
 			)
 			(text "V+"
-				(at 5.715 15.24 0)
+				(at 5.715 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -288,7 +288,7 @@
 				)
 			)
 			(text "V-"
-				(at 5.715 17.78 0)
+				(at 5.715 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -423,7 +423,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 27.94 270)
+				(at 0 30.48 270)
 				(length 5.08)
 				(name ""
 					(effects
@@ -441,7 +441,7 @@
 				)
 			)
 			(pin passive non_logic
-				(at 12.7 15.24 180)
+				(at 12.7 17.78 180)
 				(length 5.08)
 				(name ""
 					(effects
@@ -513,7 +513,7 @@
 				)
 			)
 			(pin passive non_logic
-				(at 12.7 17.78 180)
+				(at 12.7 15.24 180)
 				(length 5.08)
 				(name ""
 					(effects
@@ -1548,7 +1548,7 @@
 					(justify right)
 				)
 			)
-			(text "TTL USB"
+			(text "TTL/USB"
 				(at 0 -2.54 0)
 				(effects
 					(font

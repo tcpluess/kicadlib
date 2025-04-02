@@ -2046,7 +2046,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at -2.54 33.02 0)
+			(at -2.54 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,7 +2055,7 @@
 			)
 		)
 		(property "Value" "<value>"
-			(at -2.54 30.48 0)
+			(at -2.54 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2128,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 13.97) (xy 0 15.24) (xy -2.54 15.24) (xy -2.54 27.94) (xy 12.7 27.94) (xy 12.7 15.24) (xy 10.16 15.24)
+					(xy 0 13.97) (xy 0 15.24) (xy -2.54 15.24) (xy -2.54 30.48) (xy 12.7 30.48) (xy 12.7 15.24) (xy 10.16 15.24)
 					(xy 10.16 13.97)
 				)
 				(stroke
@@ -2139,16 +2139,16 @@
 					(type none)
 				)
 			)
-			(text "DX"
-				(at 5.08 25.4 0)
+		)
+		(symbol "74138_1_1"
+			(text "MUX/DX"
+				(at 5.08 27.94 0)
 				(effects
 					(font
 						(size 2.54 2.54)
 					)
 				)
 			)
-		)
-		(symbol "74138_1_1"
 			(pin input line
 				(at -7.62 12.7 0)
 				(length 5.08)
@@ -2447,7 +2447,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 5.08 10.16 0)
+			(at 5.08 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2456,7 +2456,7 @@
 			)
 		)
 		(property "Value" "<value>"
-			(at 5.08 7.62 0)
+			(at 5.08 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +2494,7 @@
 		(symbol "74139_0_1"
 			(polyline
 				(pts
-					(xy 7.62 -3.81) (xy 7.62 -2.54) (xy 5.08 -2.54) (xy 5.08 5.08) (xy 20.32 5.08) (xy 20.32 -2.54)
+					(xy 7.62 -3.81) (xy 7.62 -2.54) (xy 5.08 -2.54) (xy 5.08 7.62) (xy 20.32 7.62) (xy 20.32 -2.54)
 					(xy 17.78 -2.54) (xy 17.78 -3.81)
 				)
 				(stroke
@@ -2516,8 +2516,8 @@
 					(type none)
 				)
 			)
-			(text "DX"
-				(at 12.7 2.54 0)
+			(text "MUX/DX"
+				(at 12.7 5.08 0)
 				(effects
 					(font
 						(size 2.54 2.54)
