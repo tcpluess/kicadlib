@@ -31,6 +31,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Partnum",
+                    "name": "Partnum"
+                },
+                {
                     "column": "Description",
                     "name": "Description"
                 },
@@ -86,6 +90,10 @@
                     "name": "Value",
                     "visible_on_add": true,
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Partnum",
+                    "name": "Partnum"
                 },
                 {
                     "column": "Description",
@@ -145,6 +153,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Partnum",
+                    "name": "Partnum"
+                },
+                {
                     "column": "Description",
                     "name": "Description"
                 },
@@ -200,6 +212,10 @@
                     "name": "Value",
                     "visible_on_add": true,
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Partnum",
+                    "name": "Partnum"
                 },
                 {
                     "column": "Description",
@@ -259,6 +275,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Partnum",
+                    "name": "Partnum"
+                },
+                {
                     "column": "Description",
                     "name": "Description"
                 },
@@ -314,6 +334,10 @@
                     "name": "Value",
                     "visible_on_add": true,
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Partnum",
+                    "name": "Partnum"
                 },
                 {
                     "column": "Description",
@@ -373,6 +397,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Partnum",
+                    "name": "Partnum"
+                },
+                {
                     "column": "Description",
                     "name": "Description"
                 },
@@ -428,6 +456,10 @@
                     "name": "Value",
                     "visible_on_add": true,
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Partnum",
+                    "name": "Partnum"
                 },
                 {
                     "column": "Description",
@@ -487,6 +519,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Partnum",
+                    "name": "Partnum"
+                },
+                {
                     "column": "Description",
                     "name": "Description"
                 },
@@ -542,6 +578,10 @@
                     "name": "Value",
                     "visible_on_add": true,
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Partnum",
+                    "name": "Partnum"
                 },
                 {
                     "column": "Description",
@@ -601,6 +641,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Partnum",
+                    "name": "Partnum"
+                },
+                {
                     "column": "Description",
                     "name": "Description"
                 },
@@ -656,6 +700,10 @@
                     "name": "Value",
                     "visible_on_add": true,
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Partnum",
+                    "name": "Partnum"
                 },
                 {
                     "column": "Description",
@@ -715,6 +763,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Partnum",
+                    "name": "Partnum"
+                },
+                {
                     "column": "Description",
                     "name": "Description"
                 },
@@ -770,6 +822,10 @@
                     "name": "Value",
                     "visible_on_add": true,
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Partnum",
+                    "name": "Partnum"
                 },
                 {
                     "column": "Description",
@@ -829,6 +885,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Partnum",
+                    "name": "Partnum"
+                },
+                {
                     "column": "Description",
                     "name": "Description"
                 },
@@ -884,6 +944,10 @@
                     "name": "Value",
                     "visible_on_add": true,
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Partnum",
+                    "name": "Partnum"
                 },
                 {
                     "column": "Description",
@@ -943,6 +1007,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Partnum",
+                    "name": "Partnum"
+                },
+                {
                     "column": "Description",
                     "name": "Description"
                 },
@@ -998,6 +1066,10 @@
                     "name": "Value",
                     "visible_on_add": true,
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Partnum",
+                    "name": "Partnum"
                 },
                 {
                     "column": "Description",
@@ -1057,6 +1129,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Partnum",
+                    "name": "Partnum"
+                },
+                {
                     "column": "Description",
                     "name": "Description"
                 },
@@ -1112,6 +1188,10 @@
                     "name": "Value",
                     "visible_on_add": true,
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Partnum",
+                    "name": "Partnum"
                 },
                 {
                     "column": "Description",
@@ -1171,6 +1251,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Partnum",
+                    "name": "Partnum"
+                },
+                {
                     "column": "Description",
                     "name": "Description"
                 },
@@ -1226,6 +1310,10 @@
                     "name": "Value",
                     "visible_on_add": true,
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Partnum",
+                    "name": "Partnum"
                 },
                 {
                     "column": "Description",
@@ -1285,6 +1373,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Partnum",
+                    "name": "Partnum"
+                },
+                {
                     "column": "Description",
                     "name": "Description"
                 },
@@ -1340,6 +1432,10 @@
                     "name": "Value",
                     "visible_on_add": true,
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Partnum",
+                    "name": "Partnum"
                 },
                 {
                     "column": "Description",
@@ -1399,6 +1495,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Partnum",
+                    "name": "Partnum"
+                },
+                {
                     "column": "Description",
                     "name": "Description"
                 },
@@ -1454,6 +1554,10 @@
                     "name": "Value",
                     "visible_on_add": true,
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Partnum",
+                    "name": "Partnum"
                 },
                 {
                     "column": "Description",
@@ -1513,6 +1617,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Partnum",
+                    "name": "Partnum"
+                },
+                {
                     "column": "Description",
                     "name": "Description"
                 },
@@ -1568,6 +1676,10 @@
                     "name": "Value",
                     "visible_on_add": true,
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Partnum",
+                    "name": "Partnum"
                 },
                 {
                     "column": "Description",
@@ -1627,6 +1739,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Partnum",
+                    "name": "Partnum"
+                },
+                {
                     "column": "Description",
                     "name": "Description"
                 },
@@ -1682,6 +1798,10 @@
                     "name": "Value",
                     "visible_on_add": true,
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Partnum",
+                    "name": "Partnum"
                 },
                 {
                     "column": "Description",
@@ -1741,6 +1861,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Partnum",
+                    "name": "Partnum"
+                },
+                {
                     "column": "Description",
                     "name": "Description"
                 },
@@ -1796,6 +1920,10 @@
                     "name": "Value",
                     "visible_on_add": true,
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Partnum",
+                    "name": "Partnum"
                 },
                 {
                     "column": "Description",
