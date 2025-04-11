@@ -3384,15 +3384,6 @@
 					)
 				)
 			)
-			(text "C1"
-				(at -5.715 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
 			(text "SRG8"
 				(at 0 20.32 0)
 				(effects
@@ -3403,6 +3394,15 @@
 			)
 		)
 		(symbol "74164_1_1"
+			(text "C1"
+				(at -5.715 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
 			(pin input line
 				(at -12.7 10.16 0)
 				(length 5.08)
