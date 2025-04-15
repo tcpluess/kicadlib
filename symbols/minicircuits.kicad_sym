@@ -210,7 +210,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 5.08 5.08 0)
+			(at 10.16 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -219,7 +219,7 @@
 			)
 		)
 		(property "Value" "<value>"
-			(at 5.08 2.54 0)
+			(at 10.16 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228,7 +228,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 7.62 5.08 0)
+			(at 12.7 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -237,7 +237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 7.62 5.08 0)
+			(at 12.7 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -246,7 +246,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 25.4 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -257,19 +257,8 @@
 		(symbol "amplifier_DQ849_0_1"
 			(polyline
 				(pts
-					(xy 10.16 -5.08) (xy 10.16 -10.16) (xy 15.24 -7.62) (xy 10.16 -5.08)
+					(xy 0 0) (xy 0 -10.16) (xy 10.16 -5.08) (xy 0 0)
 				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 5.08 0)
-				(end 20.32 -20.32)
 				(stroke
 					(width 0)
 					(type default)
@@ -281,9 +270,9 @@
 		)
 		(symbol "amplifier_DQ849_1_1"
 			(pin input line
-				(at 0 -2.54 0)
+				(at -5.08 -5.08 0)
 				(length 5.08)
-				(name "IN"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -299,9 +288,9 @@
 				)
 			)
 			(pin open_collector line
-				(at 25.4 -2.54 180)
+				(at 15.24 -5.08 180)
 				(length 5.08)
-				(name "OUT"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -317,9 +306,9 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -15.24 180)
-				(length 5.08)
-				(name "VCC"
+				(at 2.54 2.54 270)
+				(length 3.8)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -335,9 +324,9 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -17.78 180)
+				(at 5.08 2.54 270)
 				(length 5.08)
-				(name "VCC"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -353,9 +342,9 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -17.78 0)
+				(at 5.08 -12.7 90)
 				(length 5.08)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -1587,8 +1587,8 @@
 		)
 		(symbol "opamp_single_8pin_trim_comp_1_1"
 			(pin passive line
-				(at 5.08 -5.08 90)
-				(length 2.5)
+				(at 5.08 -7.62 90)
+				(length 5)
 				(name ""
 					(effects
 						(font
@@ -1659,8 +1659,8 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -5.08 90)
-				(length 3.8)
+				(at 7.62 -7.62 90)
+				(length 6.3)
 				(name ""
 					(effects
 						(font
@@ -1713,8 +1713,8 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 5.08 270)
-				(length 3.8)
+				(at 7.62 7.62 270)
+				(length 6.3)
 				(name ""
 					(effects
 						(font
@@ -1733,8 +1733,8 @@
 		)
 		(symbol "opamp_single_8pin_trim_comp_1_2"
 			(pin passive line
-				(at 5.08 -5.08 90)
-				(length 2.5)
+				(at 5.08 -7.62 90)
+				(length 5)
 				(name ""
 					(effects
 						(font
@@ -1805,8 +1805,8 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -5.08 90)
-				(length 3.8)
+				(at 7.62 -7.62 90)
+				(length 6.3)
 				(name ""
 					(effects
 						(font
@@ -1859,8 +1859,8 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 5.08 270)
-				(length 3.8)
+				(at 7.62 7.62 270)
+				(length 6.3)
 				(name ""
 					(effects
 						(font
