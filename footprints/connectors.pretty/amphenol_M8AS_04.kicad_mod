@@ -1,7 +1,7 @@
 (footprint "amphenol_M8AS_04"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -21,19 +21,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "1dd77a77-4960-43c2-8353-ff8c780f8539")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "60f8faf2-a751-4669-87c2-adbef0f93066")
 		(effects
 			(font
 				(size 1 1)
@@ -258,6 +245,7 @@
 		(remove_unused_layers no)
 		(uuid "c8d2fdb7-e07f-4a5e-9fe2-d0c892cf7df2")
 	)
+	(embedded_fonts no)
 	(model "/tmp/(3D STP) M8AS-04PFFR-SF8001/M8AS-04PFFR-SF8001-STP.stp"
 		(offset
 			(xyz 0 18.2 6.5)

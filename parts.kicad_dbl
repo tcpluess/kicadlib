@@ -1967,6 +1967,189 @@
                 "description": "Description",
                 "exclude_from_bom": "noBom"
             }
+        },
+        {
+            "name": "RF Transformers",
+            "table": "RF Transformers",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Partnum",
+                    "name": "Partnum"
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "Analog Switch",
+            "table": "Analog Switch",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Partnum",
+                    "name": "Partnum"
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
+        },
+        {
+            "name": "RTDs",
+            "table": "RTDs",
+            "key": "Partnum",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields":
+            [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Partnum",
+                    "name": "Partnum"
+                },
+                {
+                    "column": "Description",
+                    "name": "Description"
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer"
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN"
+                },
+                {
+                    "column": "Distrelec",
+                    "name": "Distrelec"
+                },
+                {
+                    "column": "Mouser",
+                    "name": "Mouser"
+                },
+                {
+                    "column": "Digikey",
+                    "name": "Digikey"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "SMT Marking",
+                    "name": "SMT Marking"
+                },
+                {
+                    "column": "Remarks",
+                    "name": "Remarks"
+                }
+            ],
+            "properties":
+            {
+                "description": "Description",
+                "exclude_from_bom": "noBom"
+            }
         }
     ]
 }

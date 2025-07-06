@@ -60,8 +60,12 @@
     "check_for_kicad_updates": true,
     "check_for_updates": 1,
     "file_history": [
+      "/storage/work/users/pluess/electronics/gunterantenna/lna/gunterlna/gunterlna.kicad_pro",
+      "/storage/work/users/pluess/electronics/gpsdo/gpsdo.kicad_pro",
+      "/storage/work/users/pluess/electronics/10mhz_refclock/10mhz_refclock.kicad_pro",
+      "/storage/work/users/pluess/electronics/vacuumgauge/pfeiffer-mainboard/mainboard.kicad_pro",
+      "/storage/work/users/pluess/electronics/dualmixer_22ghz/dualmixer_22ghz.kicad_pro",
       "/storage/work/users/pluess/electronics/phasenoise/iap_pnts/iap_pnts/iap_pnts.kicad_pro",
-      "/storage/work/users/pluess/electronics/vacuumgauge/mainboard/mainboard.kicad_pro",
       "/storage/work/users/pluess/electronics/vacuumgauge/displayboard/displayboard.kicad_pro",
       "/storage/work/users/pluess/electronics/22ghz-mixer-experiment/22ghz_mixer/22ghz_mixer.kicad_pro"
     ],
@@ -69,10 +73,10 @@
     "last_imperial_units": 0,
     "last_metric_units": 1,
     "last_received_update": "",
-    "last_update_check_time": "2025-04-10T13:16:03",
+    "last_update_check_time": "2025-06-10T16:31:31",
     "max_undo_items": 0,
     "open_projects": [
-      "/storage/work/users/pluess/electronics/phasenoise/iap_pnts/iap_pnts/iap_pnts.kicad_pro"
+      "/storage/work/users/pluess/electronics/gunterantenna/lna/gunterlna/gunterlna.kicad_pro"
     ],
     "show_import_issues": true,
     "units": 1
@@ -220,7 +224,7 @@
       "user_grid_y": "10 mil"
     },
     "maximized": true,
-    "mru_path": "/storage/work/users/pluess/electronics/phasenoise/iap_pnts/iap_pnts/",
+    "mru_path": "/storage/work/users/pluess/electronics/gunterantenna/lna/gunterlna/",
     "perspective": "layout2|name=MainToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=227;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ProjectTree;caption=Project Files;state=1532;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Launcher;caption=Editors;state=508;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=583;besth=542;minw=583;minh=542;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,2,0)=34|dock_size(4,1,0)=250|dock_size(5,0,0)=583|",
     "pos_x": 1920,
     "pos_y": 27,

@@ -81,7 +81,7 @@
 					(xy -11.43 -5.08) (xy -8.89 -5.08)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -105,7 +105,7 @@
 					(xy -6.35 -1.27) (xy -6.35 1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -165,7 +165,7 @@
 					(xy 6.35 1.27) (xy 6.35 -1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -189,7 +189,7 @@
 					(xy 8.89 -5.08) (xy 11.43 -5.08)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -213,7 +213,7 @@
 					(xy -11.43 -7.62) (xy -8.89 -7.62) (xy -10.16 -5.08) (xy -11.43 -7.62)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -225,7 +225,7 @@
 					(xy -3.81 -1.27) (xy -3.81 1.27) (xy -6.35 0) (xy -3.81 -1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -237,7 +237,7 @@
 					(xy 3.81 1.27) (xy 3.81 -1.27) (xy 6.35 0) (xy 3.81 1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -249,7 +249,7 @@
 					(xy 8.89 -7.62) (xy 11.43 -7.62) (xy 10.16 -5.08) (xy 8.89 -7.62)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -373,13 +373,12 @@
 		)
 	)
 	(symbol "diode"
-		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "V"
-			(at -2.54 5.08 0)
+			(at -2.54 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -388,7 +387,7 @@
 			)
 		)
 		(property "Value" "<value>"
-			(at -2.54 2.54 0)
+			(at -2.54 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -429,7 +428,7 @@
 					(xy -1.27 -1.27) (xy -1.27 1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -453,7 +452,7 @@
 					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -506,6 +505,191 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "V"
+			(at -2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "<value>"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 -1.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 -1.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "diode_aak_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "diode_aak_1_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "diode_aak_2_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "diode_aak_old"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "V"
 			(at 5.08 7.62 0)
 			(effects
 				(font
@@ -550,7 +734,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "diode_aak_0_1"
+		(symbol "diode_aak_old_0_1"
 			(polyline
 				(pts
 					(xy -7.62 0) (xy 7.62 0)
@@ -568,7 +752,7 @@
 					(xy -3.81 -1.27) (xy -3.81 1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -592,7 +776,7 @@
 					(xy 3.81 -1.27) (xy 3.81 1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -604,7 +788,7 @@
 					(xy -6.35 -1.27) (xy -6.35 1.27) (xy -3.81 0) (xy -6.35 -1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -616,7 +800,7 @@
 					(xy 6.35 -1.27) (xy 6.35 1.27) (xy 3.81 0) (xy 6.35 -1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -635,7 +819,7 @@
 				)
 			)
 		)
-		(symbol "diode_aak_1_1"
+		(symbol "diode_aak_old_1_1"
 			(pin passive line
 				(at -10.16 0 0)
 				(length 2.54)
@@ -698,6 +882,191 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "V"
+			(at -2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "<value>"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 -3.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 -3.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "diode_akc_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "diode_akc_1_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "diode_akc_2_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "diode_akc_old"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "V"
 			(at 5.08 7.62 0)
 			(effects
 				(font
@@ -742,7 +1111,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "diode_akc_0_1"
+		(symbol "diode_akc_old_0_1"
 			(polyline
 				(pts
 					(xy -7.62 0) (xy 7.62 0)
@@ -827,7 +1196,7 @@
 				)
 			)
 		)
-		(symbol "diode_akc_1_1"
+		(symbol "diode_akc_old_1_1"
 			(pin passive line
 				(at -10.16 0 0)
 				(length 2.54)
@@ -890,6 +1259,191 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "V"
+			(at -2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "<value>"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 -3.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 -3.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "diode_kka_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "diode_kka_1_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "diode_kka_2_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "diode_kka_old"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "V"
 			(at 5.08 7.62 0)
 			(effects
 				(font
@@ -934,7 +1488,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "diode_kka_0_1"
+		(symbol "diode_kka_old_0_1"
 			(polyline
 				(pts
 					(xy -7.62 0) (xy 7.62 0)
@@ -1019,7 +1573,7 @@
 				)
 			)
 		)
-		(symbol "diode_kka_1_1"
+		(symbol "diode_kka_old_1_1"
 			(pin passive line
 				(at -10.16 0 0)
 				(length 2.54)
@@ -1077,13 +1631,12 @@
 		)
 	)
 	(symbol "diode_schottky"
-		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "V"
-			(at -2.54 5.08 0)
+			(at -2.54 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1092,7 +1645,7 @@
 			)
 		)
 		(property "Value" "<value>"
-			(at -2.54 2.54 0)
+			(at -2.54 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,7 +1686,7 @@
 					(xy -1.27 -1.27) (xy -1.27 1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -1157,7 +1710,7 @@
 					(xy -1.27 -1.27) (xy -1.778 -1.27) (xy -1.778 -0.762)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -1169,7 +1722,7 @@
 					(xy -1.27 1.27) (xy -0.762 1.27) (xy -0.762 0.762)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -1181,7 +1734,7 @@
 					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -1234,6 +1787,203 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "V"
+			(at -2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "<value>"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 1.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 1.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "diode_schottky_aak_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.778 -1.27) (xy 1.778 -0.762)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 0.762 1.27) (xy 0.762 0.762)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "diode_schottky_aak_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "diode_schottky_aak_2_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "diode_schottky_aak_old"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "V"
 			(at 5.08 7.62 0)
 			(effects
 				(font
@@ -1278,7 +2028,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "diode_schottky_aak_0_1"
+		(symbol "diode_schottky_aak_old_0_1"
 			(polyline
 				(pts
 					(xy -7.62 0) (xy -2.54 0)
@@ -1435,7 +2185,7 @@
 				)
 			)
 		)
-		(symbol "diode_schottky_aak_1_1"
+		(symbol "diode_schottky_aak_old_1_1"
 			(pin passive line
 				(at -10.16 0 0)
 				(length 2.54)
@@ -1498,6 +2248,203 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "V"
+			(at -2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "<value>"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -4.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -4.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "diode_schottky_akc_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.778 -1.27) (xy 1.778 -0.762)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 0.762 1.27) (xy 0.762 0.762)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "diode_schottky_akc_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "diode_schottky_akc_2_1"
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "diode_schottky_akc_old"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "V"
 			(at 5.08 7.62 0)
 			(effects
 				(font
@@ -1542,7 +2489,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "diode_schottky_akc_0_1"
+		(symbol "diode_schottky_akc_old_0_1"
 			(polyline
 				(pts
 					(xy -7.62 0) (xy -2.54 0)
@@ -1699,7 +2646,7 @@
 				)
 			)
 		)
-		(symbol "diode_schottky_akc_1_1"
+		(symbol "diode_schottky_akc_old_1_1"
 			(pin passive line
 				(at -10.16 0 0)
 				(length 2.54)
@@ -1762,7 +2709,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "V"
-			(at -2.54 5.08 0)
+			(at -2.54 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1771,7 +2718,7 @@
 			)
 		)
 		(property "Value" "<value>"
-			(at -2.54 2.54 0)
+			(at -2.54 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1812,7 +2759,7 @@
 					(xy -1.27 -1.27) (xy -1.27 1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -1836,7 +2783,7 @@
 					(xy -1.27 -1.27) (xy -1.778 -1.27) (xy -1.778 -0.762)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -1848,7 +2795,7 @@
 					(xy -1.27 1.27) (xy -0.762 1.27) (xy -0.762 0.762)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -1860,7 +2807,7 @@
 					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -1913,6 +2860,203 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "V"
+			(at -2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "<value>"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 1.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 1.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "diode_schottky_kka_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.778 -1.27) (xy -1.778 -0.762)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -0.762 1.27) (xy -0.762 0.762)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "diode_schottky_kka_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "diode_schottky_kka_2_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "diode_schottky_kka_old"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "V"
 			(at 5.08 7.62 0)
 			(effects
 				(font
@@ -1957,7 +3101,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "diode_schottky_kka_0_1"
+		(symbol "diode_schottky_kka_old_0_1"
 			(polyline
 				(pts
 					(xy -6.35 -1.27) (xy -6.35 1.27)
@@ -2114,7 +3258,7 @@
 				)
 			)
 		)
-		(symbol "diode_schottky_kka_1_1"
+		(symbol "diode_schottky_kka_old_1_1"
 			(pin passive line
 				(at -10.16 0 0)
 				(length 2.54)
@@ -2240,7 +3384,7 @@
 					(xy 0 -1.27) (xy -0.508 -1.778)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -2252,7 +3396,7 @@
 					(xy 0 1.27) (xy 0 -1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -2264,7 +3408,7 @@
 					(xy 0.508 1.778) (xy 0 1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -2276,7 +3420,7 @@
 					(xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -2288,7 +3432,7 @@
 					(xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -2336,7 +3480,6 @@
 		)
 	)
 	(symbol "diode_tvs_uni"
-		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2392,7 +3535,7 @@
 					(xy -1.27 -1.27) (xy -1.778 -1.778)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -2404,7 +3547,7 @@
 					(xy -1.27 1.27) (xy -1.27 -1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -2416,7 +3559,7 @@
 					(xy -0.762 1.778) (xy -1.27 1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -2440,7 +3583,7 @@
 					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -2488,7 +3631,6 @@
 		)
 	)
 	(symbol "led"
-		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2556,7 +3698,7 @@
 					(xy -1.27 -1.27) (xy -1.27 1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -2616,7 +3758,7 @@
 					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -2664,7 +3806,6 @@
 		)
 	)
 	(symbol "photodiode"
-		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2720,7 +3861,7 @@
 					(xy -1.27 -1.27) (xy -1.27 1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -2792,7 +3933,7 @@
 					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -2917,7 +4058,7 @@
 					(xy -1.27 -10.16) (xy 1.27 -10.16)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -2929,7 +4070,7 @@
 					(xy -1.27 -2.54) (xy 1.27 -2.54)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -2977,7 +4118,7 @@
 					(xy 6.35 -6.35) (xy 5.842 -5.842)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -3001,7 +4142,7 @@
 					(xy 8.89 -6.35) (xy 6.35 -6.35)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -3013,7 +4154,7 @@
 					(xy 9.398 -6.858) (xy 8.89 -6.35)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -3025,7 +4166,7 @@
 					(xy 13.97 -10.16) (xy 16.51 -10.16)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -3037,7 +4178,7 @@
 					(xy 13.97 -2.54) (xy 16.51 -2.54)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -3073,7 +4214,7 @@
 					(xy -1.27 -12.7) (xy 1.27 -12.7) (xy 0 -10.16) (xy -1.27 -12.7)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -3085,7 +4226,7 @@
 					(xy -1.27 -5.08) (xy 1.27 -5.08) (xy 0 -2.54) (xy -1.27 -5.08)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -3097,7 +4238,7 @@
 					(xy 6.35 -8.89) (xy 8.89 -8.89) (xy 7.62 -6.35) (xy 6.35 -8.89)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -3109,7 +4250,7 @@
 					(xy 13.97 -12.7) (xy 16.51 -12.7) (xy 15.24 -10.16) (xy 13.97 -12.7)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -3121,7 +4262,7 @@
 					(xy 13.97 -5.08) (xy 16.51 -5.08) (xy 15.24 -2.54) (xy 13.97 -5.08)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -3220,7 +4361,6 @@
 		)
 	)
 	(symbol "varactor"
-		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3288,7 +4428,7 @@
 					(xy -2.032 1.27) (xy -2.032 -1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -3300,7 +4440,7 @@
 					(xy -1.27 1.27) (xy -1.27 -1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -3324,7 +4464,7 @@
 					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -3377,6 +4517,215 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "V"
+			(at -2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "<value>"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 1.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 1.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "varactor_aak_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 -1.27) (xy 2.032 1.27)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "varactor_aak_1_1"
+			(polyline
+				(pts
+					(xy 2.032 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "varactor_aak_2_1"
+			(polyline
+				(pts
+					(xy 2.032 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "varactor_aak_old"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "V"
 			(at 5.08 7.62 0)
 			(effects
 				(font
@@ -3421,7 +4770,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "varactor_aak_0_1"
+		(symbol "varactor_aak_old_0_1"
 			(polyline
 				(pts
 					(xy -7.62 0) (xy -3.81 0)
@@ -3554,7 +4903,7 @@
 				)
 			)
 		)
-		(symbol "varactor_aak_1_1"
+		(symbol "varactor_aak_old_1_1"
 			(pin passive line
 				(at -10.16 0 0)
 				(length 2.54)
@@ -3612,7 +4961,6 @@
 		)
 	)
 	(symbol "zener"
-		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3668,7 +5016,7 @@
 					(xy -1.27 -1.27) (xy -1.27 1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -3680,7 +5028,7 @@
 					(xy -1.27 1.27) (xy -0.762 1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -3704,7 +5052,7 @@
 					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 				)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill

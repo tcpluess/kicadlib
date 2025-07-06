@@ -187,7 +187,7 @@
     "erc_warning": "rgba(209, 146, 0, 0.800)",
     "fields": "rgb(255, 0, 255)",
     "grid": "rgb(181, 181, 181)",
-    "grid_axes": "rgb(0, 0, 132)",
+    "grid_axes": "rgb(252, 252, 252)",
     "hidden": "rgb(94, 194, 194)",
     "hovered": "rgb(0, 0, 255)",
     "junction": "rgb(0, 255, 0)",

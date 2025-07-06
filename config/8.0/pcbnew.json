@@ -6,7 +6,7 @@
   "aui": {
     "appearance_expand_layer_display": true,
     "appearance_expand_net_display": false,
-    "appearance_panel_tab": 1,
+    "appearance_panel_tab": 0,
     "properties_panel_width": 300,
     "properties_splitter_proportion": 0.5,
     "right_panel_width": 266,
@@ -36,7 +36,7 @@
   },
   "drc_dialog": {
     "refill_zones": true,
-    "severities": 26,
+    "severities": 58,
     "test_all_track_errors": false,
     "test_footprints": true
   },
@@ -51,7 +51,7 @@
     "magnetic_graphics": true,
     "magnetic_pads": 2,
     "magnetic_tracks": 2,
-    "pcb_use_45_degree_limit": false,
+    "pcb_use_45_degree_limit": true,
     "polar_coords": false,
     "rotation_angle": 900,
     "show_courtyard_collisions": true,
@@ -468,7 +468,8 @@
       "Description"
     ],
     "open_libs": [
-      "soic"
+      "chip",
+      "wuerth"
     ]
   },
   "meta": {
@@ -567,15 +568,15 @@
   },
   "system": {
     "file_history": [
+      "/storage/work/users/pluess/electronics/gunterantenna/lna/gunterlna/gunterlna.kicad_pcb",
+      "/storage/work/users/pluess/electronics/10mhz_refclock/10mhz_refclock.kicad_pcb",
+      "/storage/work/users/pluess/electronics/vacuumgauge/pfeiffer-mainboard/mainboard.kicad_pcb",
       "/storage/work/users/pluess/electronics/phasenoise/iap_pnts/iap_pnts/iap_pnts.kicad_pcb",
       "/storage/work/users/pluess/electronics/vacuumgauge/mainboard/mainboard.kicad_pcb",
       "/storage/work/users/pluess/electronics/vacuumgauge/mainboard/mainbrd/mainbrd.kicad_pcb",
       "/storage/work/users/pluess/electronics/vacuumgauge/displayboard/displayboard.kicad_pcb",
       "/storage/work/users/pluess/electronics/vacuumgauge/vacuumgauge-pcb/vacuumgauge.kicad_pcb",
-      "/storage/work/users/pluess/electronics/pll_vco_ocxoboard/pll/pll.kicad_pcb",
-      "/storage/work/users/pluess/electronics/mixerboard/mxr/22ghz_mxr/22ghz_mxr.kicad_pcb",
-      "/storage/work/users/pluess/electronics/pll_adf5356/pll/pll.kicad_pcb",
-      "/storage/work/users/pluess/electronics/dualmixer_22ghz/dualmixer_22ghz/dualmixer_22ghz.kicad_pcb"
+      "/storage/work/users/pluess/electronics/pll_vco_ocxoboard/pll/pll.kicad_pcb"
     ],
     "first_run_shown": false,
     "last_footprint3d_dir": "/home/pluess/Downloads",
@@ -760,13 +761,13 @@
         }
       ],
       "snap": 0,
-      "style": 0,
+      "style": 2,
       "user_grid_x": "",
       "user_grid_y": ""
     },
-    "maximized": true,
+    "maximized": false,
     "mru_path": "/home/tobias/Nextcloud",
-    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1026;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=1028;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=386;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=670;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=675;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=PropertiesManager;caption=Properties;state=1532;dir=4;layer=5;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=386;besth=149;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(1,5,0)=38|dock_size(3,6,0)=38|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=266|dock_size(4,5,0)=300|dock_size(5,0,0)=388|",
+    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1026;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=1028;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=670;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=675;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=PropertiesManager;caption=Properties;state=1532;dir=4;layer=5;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=188;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(1,5,0)=38|dock_size(3,6,0)=38|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=266|dock_size(4,5,0)=300|dock_size(5,0,0)=402|",
     "pos_x": 1920,
     "pos_y": 27,
     "size_x": 1936,

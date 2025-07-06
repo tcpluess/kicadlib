@@ -118,7 +118,6 @@
 		)
 		(property "Value" "VCC"
 			(at 0 5.08 0)
-			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,7 +215,6 @@
 		)
 		(property "Value" "VCC_ARROW"
 			(at 0 5.08 0)
-			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)

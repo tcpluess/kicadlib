@@ -74,7 +74,7 @@
   },
   "window": {
     "cursor": {
-      "always_show_cursor": false,
+      "always_show_cursor": true,
       "fullscreen_cursor": true
     },
     "display": 1,
@@ -210,7 +210,7 @@
         }
       ],
       "snap": 0,
-      "style": 0,
+      "style": 2,
       "user_grid_x": "10 mil",
       "user_grid_y": "10 mil"
     },

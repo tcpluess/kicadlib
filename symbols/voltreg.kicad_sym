@@ -3,11 +3,14 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
 	(symbol "78xx"
+		(pin_names
+			(offset 1.5)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "N"
-			(at 5.08 5.08 0)
+			(at -7.62 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +19,7 @@
 			)
 		)
 		(property "Value" "<value>"
-			(at 5.08 2.54 0)
+			(at -7.62 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25,7 +28,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 2.54 10.16 0)
+			(at 2.54 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +37,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 2.54 10.16 0)
+			(at 2.54 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,7 +46,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -12.7 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,20 +56,30 @@
 		)
 		(symbol "78xx_0_1"
 			(rectangle
-				(start 5.08 0)
-				(end 20.32 -7.62)
+				(start -10.16 10.16)
+				(end 10.16 0)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
+		)
+		(symbol "78xx_1_1"
+			(text "VOLT REG"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+			)
 			(pin power_in line
-				(at 0 -2.54 0)
+				(at -15.24 2.54 0)
 				(length 5.08)
-				(name "+VIN"
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -82,9 +95,9 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 -12.7 90)
+				(at 0 -5.08 90)
 				(length 5.08)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -100,9 +113,9 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 -2.54 180)
+				(at 15.24 2.54 180)
 				(length 5.08)
-				(name "+VOUT"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -119,12 +132,15 @@
 			)
 		)
 	)
-	(symbol "adm7150"
+	(symbol "78xx_soic"
+		(pin_names
+			(offset 1.5)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "N"
-			(at 5.08 5.08 0)
+			(at -7.62 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -133,7 +149,191 @@
 			)
 		)
 		(property "Value" "<value>"
-			(at 5.08 2.54 0)
+			(at -7.62 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -12.7 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "78xx_soic_0_1"
+			(rectangle
+				(start -10.16 10.16)
+				(end 12.7 0)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "78xx_soic_1_1"
+			(text "VOLT REG"
+				(at 1.27 7.62 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+			)
+			(pin power_out line
+				(at 17.78 2.54 180)
+				(length 5.08)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -5.08 90)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -5.08 90)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -5.08 90)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 -5.08 90)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -15.24 2.54 0)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "adm7150"
+		(pin_names
+			(offset 1.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "N"
+			(at -10.16 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "<value>"
+			(at -10.16 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -170,10 +370,10 @@
 		)
 		(symbol "adm7150_0_1"
 			(rectangle
-				(start 5.08 0)
-				(end 22.86 -20.32)
+				(start -10.16 10.16)
+				(end 7.62 -12.7)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -182,8 +382,16 @@
 			)
 		)
 		(symbol "adm7150_1_1"
+			(text "VOLT REG"
+				(at -1.27 7.62 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+			)
 			(pin passive line
-				(at 0 -17.78 0)
+				(at -15.24 -5.08 0)
 				(length 5.08)
 				(name "VREG"
 					(effects
@@ -201,7 +409,7 @@
 				)
 			)
 			(pin power_out line
-				(at 27.94 -2.54 180)
+				(at 12.7 2.54 180)
 				(length 5.08)
 				(name "VOUT"
 					(effects
@@ -219,7 +427,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -15.24 0)
+				(at -15.24 -10.16 0)
 				(length 5.08)
 				(name "BYP"
 					(effects
@@ -237,9 +445,9 @@
 				)
 			)
 			(pin power_in line
-				(at 27.94 -15.24 180)
+				(at 0 -17.78 90)
 				(length 5.08)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -255,7 +463,7 @@
 				)
 			)
 			(pin input line
-				(at 27.94 -10.16 180)
+				(at 12.7 -5.08 180)
 				(length 5.08)
 				(name "REF_SENSE"
 					(effects
@@ -273,7 +481,7 @@
 				)
 			)
 			(pin output line
-				(at 27.94 -7.62 180)
+				(at 12.7 -2.54 180)
 				(length 5.08)
 				(name "REF"
 					(effects
@@ -291,7 +499,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -10.16 0)
+				(at -15.24 0 0)
 				(length 5.08)
 				(name "EN"
 					(effects
@@ -309,7 +517,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -2.54 0)
+				(at -15.24 2.54 0)
 				(length 5.08)
 				(name "VIN"
 					(effects
@@ -327,9 +535,9 @@
 				)
 			)
 			(pin power_in line
-				(at 27.94 -17.78 180)
+				(at -2.54 -17.78 90)
 				(length 5.08)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -347,11 +555,14 @@
 		)
 	)
 	(symbol "lm1117"
+		(pin_names
+			(offset 1.5)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "N"
-			(at 5.08 5.08 0)
+			(at -10.16 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -360,7 +571,7 @@
 			)
 		)
 		(property "Value" "<value>"
-			(at 5.08 2.54 0)
+			(at -10.16 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -369,7 +580,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 2.54 10.16 0)
+			(at -12.7 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -378,7 +589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 2.54 10.16 0)
+			(at -12.7 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -387,7 +598,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -397,10 +608,10 @@
 		)
 		(symbol "lm1117_0_1"
 			(rectangle
-				(start 5.08 0)
-				(end 20.32 -10.16)
+				(start -10.16 12.7)
+				(end 10.16 0)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -409,10 +620,18 @@
 			)
 		)
 		(symbol "lm1117_1_1"
+			(text "VOLT REG"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+			)
 			(pin power_in line
-				(at 12.7 -15.24 90)
+				(at 0 -5.08 90)
 				(length 5.08)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -428,9 +647,9 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 -2.54 180)
+				(at 15.24 5.08 180)
 				(length 5.08)
-				(name "+VOUT"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -446,9 +665,9 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -2.54 0)
+				(at -15.24 5.08 0)
 				(length 5.08)
-				(name "+VIN"
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -464,9 +683,9 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 -5.08 180)
+				(at 15.24 2.54 180)
 				(length 5.08)
-				(name "+VOUT"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -484,11 +703,14 @@
 		)
 	)
 	(symbol "lm1117_adj"
+		(pin_names
+			(offset 1.5)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "N"
-			(at 5.08 5.08 0)
+			(at -10.16 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -497,7 +719,7 @@
 			)
 		)
 		(property "Value" "<value>"
-			(at 5.08 2.54 0)
+			(at -10.16 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -506,7 +728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 2.54 10.16 0)
+			(at -12.7 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -515,7 +737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 2.54 10.16 0)
+			(at -12.7 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -524,7 +746,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -12.7 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -534,10 +756,10 @@
 		)
 		(symbol "lm1117_adj_0_1"
 			(rectangle
-				(start 5.08 0)
-				(end 20.32 -10.16)
+				(start -10.16 12.7)
+				(end 10.16 0)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -546,8 +768,16 @@
 			)
 		)
 		(symbol "lm1117_adj_1_1"
-			(pin power_in line
-				(at 12.7 -15.24 90)
+			(text "VOLT REG"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 2.54 0)
 				(length 5.08)
 				(name "ADJ"
 					(effects
@@ -565,9 +795,9 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 -2.54 180)
+				(at 15.24 5.08 180)
 				(length 5.08)
-				(name "+VOUT"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -583,9 +813,9 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -2.54 0)
+				(at -15.24 5.08 0)
 				(length 5.08)
-				(name "+VIN"
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -601,9 +831,9 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 -5.08 180)
+				(at 15.24 2.54 180)
 				(length 5.08)
-				(name "+VOUT"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -622,25 +852,27 @@
 	)
 	(symbol "lm2671"
 		(pin_names
-			(offset 1)
+			(offset 1.5)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "N"
-			(at 5.08 5.08 0)
+			(at -10.16 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "<value>"
-			(at 7.62 2.54 0)
+			(at -10.16 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -662,7 +894,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -15.24 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -672,10 +904,10 @@
 		)
 		(symbol "lm2671_0_1"
 			(rectangle
-				(start 5.08 0)
-				(end 22.86 -20.32)
+				(start -10.16 5.08)
+				(end 10.16 -20.32)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -684,8 +916,16 @@
 			)
 		)
 		(symbol "lm2671_1_1"
+			(text "VOLT REG"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+			)
 			(pin input line
-				(at 27.94 -2.54 180)
+				(at 15.24 -2.54 180)
 				(length 5.08)
 				(name "CB"
 					(effects
@@ -703,7 +943,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -12.7 0)
+				(at -15.24 -12.7 0)
 				(length 5.08)
 				(name "SS"
 					(effects
@@ -721,7 +961,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -7.62 0)
+				(at -15.24 -10.16 0)
 				(length 5.08)
 				(name "SYNC"
 					(effects
@@ -739,7 +979,7 @@
 				)
 			)
 			(pin input line
-				(at 27.94 -17.78 180)
+				(at -15.24 -17.78 0)
 				(length 5.08)
 				(name "FB"
 					(effects
@@ -757,7 +997,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -10.16 0)
+				(at -15.24 -7.62 0)
 				(length 5.08)
 				(name "ON/~{OFF}"
 					(effects
@@ -775,9 +1015,9 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -17.78 0)
+				(at 0 -25.4 90)
 				(length 5.08)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -793,7 +1033,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -2.54 0)
+				(at -15.24 -2.54 0)
 				(length 5.08)
 				(name "VIN"
 					(effects
@@ -811,7 +1051,7 @@
 				)
 			)
 			(pin power_out line
-				(at 27.94 -10.16 180)
+				(at 15.24 -17.78 180)
 				(length 5.08)
 				(name "SW"
 					(effects
@@ -832,13 +1072,13 @@
 	)
 	(symbol "lmr51430"
 		(pin_names
-			(offset 1)
+			(offset 1.5)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "N"
-			(at 5.08 5.08 0)
+			(at -10.16 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -847,7 +1087,7 @@
 			)
 		)
 		(property "Value" "<value>"
-			(at 5.08 2.54 0)
+			(at -10.16 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -856,25 +1096,27 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 5.08 0)
+			(at -15.24 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 5.08 0)
+			(at -15.24 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -15.24 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -884,8 +1126,32 @@
 		)
 		(symbol "lmr51430_0_1"
 			(rectangle
-				(start 5.08 0)
-				(end 22.86 -20.32)
+				(start -10.16 5.08)
+				(end 10.16 -12.7)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -9.144 -5.842) (xy -8.128 -5.842) (xy -7.874 -4.318)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.366 -4.318) (xy -8.382 -4.318) (xy -8.636 -5.842)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -896,10 +1162,26 @@
 			)
 		)
 		(symbol "lmr51430_1_1"
+			(text "ON/~{OFF}"
+				(at -3.81 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "VOLT REG"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+			)
 			(pin power_in line
-				(at 0 -17.78 0)
+				(at 0 -17.78 90)
 				(length 5.08)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -915,7 +1197,7 @@
 				)
 			)
 			(pin power_out line
-				(at 27.94 -10.16 180)
+				(at 15.24 -10.16 180)
 				(length 5.08)
 				(name "SW"
 					(effects
@@ -933,7 +1215,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -2.54 0)
+				(at -15.24 -2.54 0)
 				(length 5.08)
 				(name "VIN"
 					(effects
@@ -951,7 +1233,7 @@
 				)
 			)
 			(pin input line
-				(at 27.94 -17.78 180)
+				(at -15.24 -10.16 0)
 				(length 5.08)
 				(name "FB"
 					(effects
@@ -969,9 +1251,9 @@
 				)
 			)
 			(pin input line
-				(at 0 -5.08 0)
+				(at -15.24 -5.08 0)
 				(length 5.08)
-				(name "ON/~{OFF}"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -986,8 +1268,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 27.94 -2.54 180)
+			(pin passive line
+				(at 15.24 -2.54 180)
 				(length 5.08)
 				(name "CB"
 					(effects
@@ -1007,11 +1289,14 @@
 		)
 	)
 	(symbol "tlv1117kvu"
+		(pin_names
+			(offset 1.5)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "N"
-			(at 5.08 5.08 0)
+			(at -10.16 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +1305,7 @@
 			)
 		)
 		(property "Value" "<value>"
-			(at 5.08 2.54 0)
+			(at -10.16 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1047,7 +1332,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -12.7 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1057,10 +1342,10 @@
 		)
 		(symbol "tlv1117kvu_0_1"
 			(rectangle
-				(start 5.08 0)
-				(end 20.32 -10.16)
+				(start -10.16 10.16)
+				(end 10.16 0)
 				(stroke
-					(width 0)
+					(width 0.3)
 					(type default)
 				)
 				(fill
@@ -1069,10 +1354,18 @@
 			)
 		)
 		(symbol "tlv1117kvu_1_1"
+			(text "VOLT REG"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+			)
 			(pin power_in line
-				(at 12.7 -15.24 90)
+				(at 0 -5.08 90)
 				(length 5.08)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1088,9 +1381,9 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -2.54 0)
+				(at -15.24 2.54 0)
 				(length 5.08)
-				(name "+VIN"
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1106,9 +1399,9 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 -2.54 180)
+				(at 15.24 2.54 180)
 				(length 5.08)
-				(name "+VOUT"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
