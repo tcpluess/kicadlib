@@ -1,0 +1,113 @@
+(footprint "90120-0764"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "THT Pin Header 1x4 pins, 2.54mm")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ec6929e8-0377-4080-b8ad-53b0d95877da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15196da6-f370-4384-bd50-bdfc080eb172")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d9261f4-4283-4b4b-b425-9f9bb64a6e72")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d10b8785-e837-4a6f-8bf5-66151445651a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.08 -1.27)
+		(end 5.08 1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2ddf9641-5e60-44be-b1ea-e7a56804430d")
+	)
+	(pad "1" thru_hole rect
+		(at -3.81 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "6d64e34e-b6ab-4a2c-8fe5-dbc12c12776a")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d9ac7502-0270-4e42-993d-49daf53e7da6")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "89897815-9774-4888-a819-88b1b14f64ef")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3aec2aad-1b65-4435-bf9a-4605cf8604c7")
+	)
+	(embedded_fonts no)
+	(model "${LIBDIR}/3d/molex/90120-0764.stp"
+		(offset
+			(xyz 0 0 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)

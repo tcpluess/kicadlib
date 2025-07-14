@@ -586,8 +586,8 @@
   },
   "system": {
     "file_history": [
-      "/storage/work/users/pluess/electronics/gunterantenna/lna/gunterlna/gunterlna.kicad_pcb",
       "/storage/work/users/pluess/electronics/10mhz_refclock/10mhz_refclock.kicad_pcb",
+      "/storage/work/users/pluess/electronics/gunterantenna/lna/gunterlna/gunterlna.kicad_pcb",
       "/storage/work/users/pluess/electronics/phasenoise/phaseoise_testset/phaseoise_testset.kicad_pcb",
       "/storage/work/users/pluess/electronics/phasenoise/iap_pnts/iap_pnts/iap_pnts.kicad_pcb",
       "/storage/work/users/pluess/electronics/vacuumgauge/pfeiffer-mainboard/mainboard.kicad_pcb",
@@ -597,7 +597,7 @@
       "/storage/work/users/pluess/electronics/vacuumgauge/vacuumgauge-pcb/vacuumgauge.kicad_pcb"
     ],
     "first_run_shown": false,
-    "last_footprint3d_dir": "/home/pluess/Downloads",
+    "last_footprint3d_dir": "/home/pluess/kicadlib/3d/molex",
     "last_footprint_lib_dir": "/tmp/FTSH-105-XX-X-DV",
     "last_imperial_units": 0,
     "last_metric_units": 1,

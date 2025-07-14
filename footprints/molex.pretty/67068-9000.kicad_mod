@@ -1,0 +1,128 @@
+(footprint "67068-9000"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "USB B Connector")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c64b68be-69ff-4021-b5d4-33afa1f3f0f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "67068-9000"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33b92c27-3fde-489c-bb56-7688e912bf2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "369cc352-0685-4cae-91bd-8a99d26a9c64")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d00804c-fc76-4314-816c-d88f98c45a98")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6 0)
+		(end 6 -17)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0c3c3281-32ed-41c3-93dc-a844a792b61c")
+	)
+	(pad "1" thru_hole circle
+		(at 1.25 -14.99)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6212fd6a-969a-4297-bfdc-5bf76c6117f5")
+	)
+	(pad "2" thru_hole circle
+		(at -1.25 -14.99)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c85aeaef-fda4-4741-a9bb-f2cb49381548")
+	)
+	(pad "3" thru_hole circle
+		(at -1.25 -12.99)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "55504b6e-238e-4fd4-abab-d2ce7e60d032")
+	)
+	(pad "4" thru_hole circle
+		(at 1.25 -12.99)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d3907260-4724-4848-9ab0-03e2ecf5027e")
+	)
+	(pad "5" thru_hole circle
+		(at -6.02 -10.28)
+		(size 3.5 3.5)
+		(drill 2.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "99ae3492-bd84-426d-b3c6-1992fed65c8e")
+	)
+	(pad "5" thru_hole circle
+		(at 6.02 -10.28)
+		(size 3.5 3.5)
+		(drill 2.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f7143e57-b0d5-4446-ae83-da8bcfc3544b")
+	)
+	(embedded_fonts no)
+	(model "${LIBDIR}/3d/molex/67068-9000.stp"
+		(offset
+			(xyz 0 8.4 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

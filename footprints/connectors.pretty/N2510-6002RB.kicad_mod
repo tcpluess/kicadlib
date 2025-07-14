@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "THT Four Wall Header, 2x5 pins")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
@@ -156,4 +157,15 @@
 		(uuid "caecea31-804f-4d30-9b5a-7c1d1429013c")
 	)
 	(embedded_fonts no)
+	(model "${LIBDIR}/3d/connectors/2510-6002.stp"
+		(offset
+			(xyz -5 -1.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

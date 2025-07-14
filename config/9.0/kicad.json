@@ -68,9 +68,9 @@
     "check_for_updates": 1,
     "file_history": [
       "/storage/work/users/pluess/electronics/gpsdo/gpsdo.kicad_pro",
+      "/storage/work/users/pluess/electronics/10mhz_refclock/10mhz_refclock.kicad_pro",
       "/storage/work/users/pluess/electronics/phasenoise/phaseoise_testset/phaseoise_testset.kicad_pro",
       "/storage/work/users/pluess/electronics/gunterantenna/lna/gunterlna/gunterlna.kicad_pro",
-      "/storage/work/users/pluess/electronics/10mhz_refclock/10mhz_refclock.kicad_pro",
       "/storage/work/users/pluess/electronics/phasenoise/phaseoiste_testset/phaseoiste_testset.kicad_pro",
       "/storage/work/users/pluess/electronics/phasenoise/iap_pnts/iap_pnts/iap_pnts.kicad_pro",
       "/storage/work/users/pluess/electronics/vacuumgauge/pfeiffer-mainboard/mainboard.kicad_pro",
@@ -82,7 +82,7 @@
     "last_imperial_units": 0,
     "last_metric_units": 1,
     "last_received_update": "",
-    "last_update_check_time": "2025-07-02T07:37:11",
+    "last_update_check_time": "2025-07-09T13:36:59",
     "max_undo_items": 0,
     "open_projects": [
       "/storage/work/users/pluess/electronics/gpsdo/gpsdo.kicad_pro"

@@ -1,0 +1,114 @@
+(footprint "mkds_5.08_3pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Phoenix Contact 1729131")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "eae9bcbb-90d0-4958-822d-a10aecebbbb3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "con3"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74fd61bd-0117-4fd6-bad4-389ee867c838")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cffdc44-9101-41ac-ac51-08228e5c8176")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1af41362-28ae-4959-94a3-68cae142a613")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.62 3.175)
+		(end 7.62 3.175)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ca8c8dc0-0b10-4cf1-be72-9b734ed0e377")
+	)
+	(fp_rect
+		(start -7.62 4.05)
+		(end 7.62 -4.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5df93edc-ba0b-4636-a8aa-bd15925d7e7f")
+	)
+	(pad "1" thru_hole rect
+		(at -5.08 0)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ed5d018f-52fc-4a73-90b3-f83169ee61e4")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6f530037-75e2-4f6c-a5b2-a18c6611a4fd")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f5fec9d8-0234-4096-bef8-f216561fcb78")
+	)
+	(embedded_fonts no)
+	(model "${LIBDIR}/3d/connectors/phoenix/1729131.stp"
+		(offset
+			(xyz -7.5 -4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

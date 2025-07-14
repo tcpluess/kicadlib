@@ -1,0 +1,104 @@
+(footprint "C_TANT_7343"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Chip Tantalum Capacitor 7343")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bc362c9b-44fc-4bd2-b3d5-2408e798288a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "7343_pol_1"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80b29646-6be3-40c9-a532-bb46f09a8e64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28320200-acb2-4825-b41d-8021534694d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc0dbd31-cf22-4eab-a482-128efa32158b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 2.54 2.15)
+		(end 2.54 -2.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8b9b8aea-0587-48f2-8d18-4d5191b0171b")
+	)
+	(fp_rect
+		(start -3.65 2.15)
+		(end 3.65 -2.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "765ba609-3a52-406b-b002-a95587139050")
+	)
+	(pad "1" smd rect
+		(at -3.12 0)
+		(size 2.4 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "140c50c2-5a87-4a09-a516-64eff9f215dd")
+	)
+	(pad "2" smd rect
+		(at 3.12 0)
+		(size 2.4 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "55909bc6-4989-47ee-89e2-54bcbca67ed5")
+	)
+	(embedded_fonts no)
+	(model "${LIBDIR}/3d/capacitors/CP_EIA-7343.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

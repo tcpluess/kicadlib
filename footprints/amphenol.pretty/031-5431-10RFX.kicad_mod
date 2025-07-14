@@ -1,0 +1,167 @@
+(footprint "031-5431-10RFX"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "BNC Connector")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "61d0a155-7075-43ec-ae16-74f83b487958")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "031-5431-10RFX"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9f0bab03-55a5-4983-a965-9b57dddedfe1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "221c8617-37c3-4f4e-a5f9-8503cb3643f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab96df76-30a9-41f5-ad8d-94f06f327785")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.5 -16.27)
+		(end -5.5 -7.37)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "adaca130-0f6b-4cba-8b83-656d78c2091c")
+	)
+	(fp_line
+		(start 5.5 -16.27)
+		(end 5.5 -7.37)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "31c24990-b608-402b-9562-fef2befbd49e")
+	)
+	(fp_rect
+		(start -7.5 5)
+		(end 7.5 -7.37)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fe62162e-9bbb-4d56-8560-656fdd5a23e3")
+	)
+	(fp_rect
+		(start -6.4 -7.37)
+		(end 6.4 -16.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5d8236d8-4ce4-4e8b-afc9-574ef8be4ff8")
+	)
+	(fp_rect
+		(start -5 -16.27)
+		(end 5 -28.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "202b9ff3-bc42-422a-8724-ae3d12408512")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1ffb0874-e443-4dad-a9a1-b26d234e27f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -5.08 0)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "876ba09e-a505-4ad0-b4d3-1f20d7c98dae")
+	)
+	(pad "" thru_hole circle
+		(at 5.08 0)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "61da87d3-f161-4bd7-914c-8d7a728fe295")
+	)
+	(pad "1" thru_hole circle
+		(at 0 5.08)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "877225aa-bf9e-47bb-b895-8ae3673a9e7d")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 5.08)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "05bda65b-1c1c-4cd8-8da2-6fd6672bfac2")
+	)
+	(embedded_fonts no)
+	(model "${LIBDIR}/3d/connectors/31-5431-10RFX.stp"
+		(offset
+			(xyz 0 -6.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

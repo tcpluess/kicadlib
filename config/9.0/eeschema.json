@@ -218,7 +218,7 @@
     ],
     "open_libs": [
       "-- Already Placed --",
-      "parts - Resistors"
+      "parts - Misc"
     ]
   },
   "lib_view": {
@@ -332,10 +332,10 @@
   },
   "system": {
     "file_history": [
+      "/storage/work/users/pluess/electronics/10mhz_refclock/10mhz_refclock.kicad_sch",
       "/storage/work/users/pluess/electronics/gpsdo/gpsdo.kicad_sch",
       "/storage/work/users/pluess/electronics/phasenoise/phaseoise_testset/phaseoise_testset.kicad_sch",
       "/storage/work/users/pluess/electronics/gunterantenna/lna/gunterlna/gunterlna.kicad_sch",
-      "/storage/work/users/pluess/electronics/10mhz_refclock/10mhz_refclock.kicad_sch",
       "/storage/work/users/pluess/electronics/phasenoise/phaseoiste_testset/phaseoiste_testset.kicad_sch",
       "/storage/work/users/pluess/electronics/phasenoise/iap_pnts/iap_pnts/iap_pnts.kicad_sch",
       "/storage/work/users/pluess/electronics/vacuumgauge/pfeiffer-mainboard/mainboard.kicad_sch",

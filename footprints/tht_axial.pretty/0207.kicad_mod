@@ -1,20 +1,115 @@
-(footprint "0207" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 0 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp 3b67d39f-083d-46da-9eab-e03c68678b5b)
-  )
-  (fp_text value "" (at 0 0 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp eff170a9-ee0f-4dde-9a60-c951d341353f)
-  )
-  (fp_line (start -5.08 0) (end -3.5 0)
-    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 841d06da-c033-467b-b21a-5a5b88bd4658))
-  (fp_line (start 5.08 0) (end 3.5 0)
-    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 9e1cceba-f561-4715-8137-6d2232dbc911))
-  (fp_rect (start -3.5 -1.3) (end 3.5 1.3)
-    (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab") (tstamp 937ec621-79f0-4bcc-bffa-804833c1bb99))
-  (pad "1" thru_hole circle (at -5.08 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp d27ea7aa-049a-4e2d-8f3f-e013d04c42bb))
-  (pad "2" thru_hole circle (at 5.08 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 778bade9-b3c5-41d3-8c93-58fae4374334))
+(footprint "0207"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3b67d39f-083d-46da-9eab-e03c68678b5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eff170a9-ee0f-4dde-9a60-c951d341353f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ab7e56b-3b9d-45d9-9a71-78be0fe7a9d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b363004d-c0cd-4189-8f97-6ad48d30cc01")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.08 0)
+		(end -3.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "841d06da-c033-467b-b21a-5a5b88bd4658")
+	)
+	(fp_line
+		(start 5.08 0)
+		(end 3.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9e1cceba-f561-4715-8137-6d2232dbc911")
+	)
+	(fp_rect
+		(start -3.5 -1.3)
+		(end 3.5 1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "937ec621-79f0-4bcc-bffa-804833c1bb99")
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d27ea7aa-049a-4e2d-8f3f-e013d04c42bb")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "778bade9-b3c5-41d3-8c93-58fae4374334")
+	)
+	(embedded_fonts no)
+	(model "${LIBDIR}/3d/resistors/tht_0207.step"
+		(offset
+			(xyz -5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

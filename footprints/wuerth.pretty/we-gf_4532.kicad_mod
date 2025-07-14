@@ -1,8 +1,9 @@
 (footprint "we-gf_4532"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "Würth WE GF 4.5 x 3.2")
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(unlocked yes)
@@ -21,19 +22,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "2764029d-4029-4951-9286-fa82908e0fba")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2f92c590-e633-4293-8bfa-fa401652e0ee")
 		(effects
 			(font
 				(size 1 1)
@@ -75,22 +63,34 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7e927a9c-6800-493c-8a55-0d90af73e748")
 	)
 	(pad "1" smd rect
 		(at -1.85 0)
 		(size 1.6 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "004a4bee-13c1-4ff3-9a01-a1c5f8eb986d")
 	)
 	(pad "2" smd rect
 		(at 1.85 0)
 		(size 1.6 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "16a62a66-ddfc-482f-adda-4d47ab52f9ad")
+	)
+	(embedded_fonts no)
+	(model "${LIBDIR}/3d/inductor/WE-GF_1812.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

@@ -1,22 +1,125 @@
-(footprint "do35" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 -2 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp b9d48941-9c0c-4612-97c4-8ee504decbc1)
-  )
-  (fp_text value "" (at 0 0 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp e8949e40-707f-4dc7-8f12-63040dfdda5c)
-  )
-  (fp_line (start -1.7 0) (end -5.08 0)
-    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 6e5c3291-b5af-411e-993e-37dadba0909d))
-  (fp_line (start -1 0.9) (end -1 -0.9)
-    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp ee4e69a9-7580-4e19-a0a0-83a5078cf2ee))
-  (fp_line (start 1.7 0) (end 5.08 0)
-    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 38904f40-c187-4103-b55f-ffeec2c2ea60))
-  (fp_rect (start -1.7 0.9) (end 1.7 -0.9)
-    (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab") (tstamp 155b81f5-751f-466b-840b-d768d5d3ebc7))
-  (pad "1" thru_hole rect (at -5.08 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 99931542-0963-4496-9069-fb147227a26c))
-  (pad "2" thru_hole circle (at 5.08 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 5c047dbb-0cd6-4ff8-84b0-7be2f056be06))
+(footprint "do35"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b9d48941-9c0c-4612-97c4-8ee504decbc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8949e40-707f-4dc7-8f12-63040dfdda5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "759cbece-4eb1-4928-bdb2-62fd4ff6527d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "606f964f-832c-45b4-8388-b3fbcbdc88e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.7 0)
+		(end -5.08 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6e5c3291-b5af-411e-993e-37dadba0909d")
+	)
+	(fp_line
+		(start -1 0.9)
+		(end -1 -0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ee4e69a9-7580-4e19-a0a0-83a5078cf2ee")
+	)
+	(fp_line
+		(start 1.7 0)
+		(end 5.08 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "38904f40-c187-4103-b55f-ffeec2c2ea60")
+	)
+	(fp_rect
+		(start -1.7 0.9)
+		(end 1.7 -0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "155b81f5-751f-466b-840b-d768d5d3ebc7")
+	)
+	(pad "1" thru_hole rect
+		(at -5.08 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "99931542-0963-4496-9069-fb147227a26c")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5c047dbb-0cd6-4ff8-84b0-7be2f056be06")
+	)
+	(embedded_fonts no)
+	(model "${LIBDIR}/3d/diodes/tht_DO35.stp"
+		(offset
+			(xyz -5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

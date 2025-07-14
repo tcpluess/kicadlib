@@ -20,4 +20,7 @@
   (lib (name "ssop")(type "KiCad")(uri "${FOOTPRINT_DIR}/ssop.pretty")(options "")(descr ""))
   (lib (name "phoenix")(type "KiCad")(uri "${FOOTPRINT_DIR}/phoenix.pretty")(options "")(descr ""))
   (lib (name "lfcsp")(type "KiCad")(uri "${FOOTPRINT_DIR}/lfcsp.pretty")(options "")(descr ""))
+  (lib (name "molex")(type "KiCad")(uri "/home/pluess/kicadlib/footprints/molex.pretty")(options "")(descr ""))
+  (lib (name "amphenol")(type "KiCad")(uri "/home/pluess/kicadlib/footprints/amphenol.pretty")(options "")(descr ""))
+  (lib (name "rosenberger")(type "KiCad")(uri "/home/pluess/kicadlib/footprints/rosenberger.pretty")(options "")(descr ""))
 )
