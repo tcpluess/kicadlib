@@ -89,6 +89,6 @@
     "pdf_viewer_name": "",
     "text_editor": "/usr/bin/nano",
     "use_system_pdf_viewer": true,
-    "working_dir": "/storage/work/users/pluess/electronics/gunterantenna/lna/gunterlna"
+    "working_dir": "/home/tobias"
   }
 }
