@@ -11,11 +11,11 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.1)
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -75,4 +75,15 @@
 		(uuid "47985c76-3b35-4259-8e3b-551dc75fb6d2")
 	)
 	(embedded_fonts no)
+	(model "${LIBDIR}/3d/misc/TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

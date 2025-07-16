@@ -1,10 +1,10 @@
 (footprint "deltron_DTS09PYC"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 7.62 0)
+		(at 0 -3.85 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "43936686-b3fc-4768-992b-aa4aa3875fa4")
@@ -21,19 +21,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "6958cd83-bd68-41ca-bd1b-dae90bcd29b7")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 1.27 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d6a05638-c3e3-42de-9828-d932ebd8db05")
 		(effects
 			(font
 				(size 1 1)
@@ -69,8 +56,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -15.4 -3.23)
-		(end -9.4 -3.23)
+		(start -15.4 -14.7)
+		(end -9.4 -14.7)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -79,8 +66,8 @@
 		(uuid "c9977b21-9b68-457f-b238-24e66af4ddeb")
 	)
 	(fp_line
-		(start -15.4 11.47)
-		(end -15.4 -3.23)
+		(start -15.4 0)
+		(end -15.4 -14.7)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -89,8 +76,8 @@
 		(uuid "6f804943-dc88-4537-91c4-327ea40d58d8")
 	)
 	(fp_line
-		(start -15.4 11.47)
-		(end 15.4 11.47)
+		(start -15.4 0)
+		(end 15.4 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -99,8 +86,8 @@
 		(uuid "8253c47f-85a7-40d1-92a4-fcfe8ca05c64")
 	)
 	(fp_line
-		(start -9.4 -3.23)
-		(end -9.4 4.445)
+		(start -9.4 -14.7)
+		(end -9.4 -7.025)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -109,8 +96,8 @@
 		(uuid "34dbbaec-fa8d-4473-a20b-72fc6ae091d9")
 	)
 	(fp_line
-		(start -8.15 17.57)
-		(end -8.15 11.47)
+		(start -8.15 6.1)
+		(end -8.15 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -119,8 +106,8 @@
 		(uuid "d467360e-3645-48e9-80d9-d3beee19b4c7")
 	)
 	(fp_line
-		(start -8.15 17.57)
-		(end 8.15 17.57)
+		(start -8.15 6.1)
+		(end 8.15 6.1)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -129,8 +116,8 @@
 		(uuid "6920175f-98b6-49c7-b78f-e1bbc99f141b")
 	)
 	(fp_line
-		(start 8.15 17.57)
-		(end 8.15 11.47)
+		(start 8.15 6.1)
+		(end 8.15 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -139,8 +126,8 @@
 		(uuid "ea9e5511-0c90-4a89-bcab-030ce8a7a199")
 	)
 	(fp_line
-		(start 9.4 -3.23)
-		(end 9.4 4.445)
+		(start 9.4 -14.7)
+		(end 9.4 -7.025)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -149,8 +136,8 @@
 		(uuid "42379106-0430-495c-bd3f-eb322243d966")
 	)
 	(fp_line
-		(start 9.4 4.445)
-		(end -9.4 4.445)
+		(start 9.4 -7.025)
+		(end -9.4 -7.025)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -159,8 +146,8 @@
 		(uuid "2e675d26-6483-4733-b34f-10066b9fe4ef")
 	)
 	(fp_line
-		(start 15.4 -3.23)
-		(end 9.4 -3.23)
+		(start 15.4 -14.7)
+		(end 9.4 -14.7)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -169,8 +156,8 @@
 		(uuid "66cf7b6d-f1e3-468a-92cd-5b32b6eadb41")
 	)
 	(fp_line
-		(start 15.4 11.47)
-		(end 15.4 -3.23)
+		(start 15.4 0)
+		(end 15.4 -14.7)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -179,7 +166,7 @@
 		(uuid "97e99899-4ef9-44b3-83af-24d3fe5a7430")
 	)
 	(pad "1" thru_hole rect
-		(at -5.48 -1.27)
+		(at -5.48 -12.74)
 		(size 1.5 1.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -187,7 +174,7 @@
 		(uuid "ee160145-7451-4484-94ed-dbdf59568700")
 	)
 	(pad "2" thru_hole circle
-		(at -2.74 -1.27)
+		(at -2.74 -12.74)
 		(size 1.5 1.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -195,7 +182,7 @@
 		(uuid "42f1ad98-4cb4-4009-baa8-e54d19d6c8d8")
 	)
 	(pad "3" thru_hole circle
-		(at 0 -1.27)
+		(at 0 -12.74)
 		(size 1.5 1.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -203,7 +190,7 @@
 		(uuid "429328ef-2839-4336-aa7a-196a6756598f")
 	)
 	(pad "4" thru_hole circle
-		(at 2.74 -1.27)
+		(at 2.74 -12.74)
 		(size 1.5 1.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -211,7 +198,7 @@
 		(uuid "1bd93c13-a0b6-4bc6-8cf5-cffbfc329cde")
 	)
 	(pad "5" thru_hole circle
-		(at 5.48 -1.27)
+		(at 5.48 -12.74)
 		(size 1.5 1.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -219,7 +206,7 @@
 		(uuid "ebcd026d-586a-4636-b387-cd5b868ec4e3")
 	)
 	(pad "6" thru_hole circle
-		(at -4.11 1.27)
+		(at -4.11 -10.2)
 		(size 1.5 1.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -227,7 +214,7 @@
 		(uuid "4f664a26-b590-4769-bfe8-90befe1a461c")
 	)
 	(pad "7" thru_hole circle
-		(at -1.37 1.27)
+		(at -1.37 -10.2)
 		(size 1.5 1.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -235,7 +222,7 @@
 		(uuid "65f193a1-537e-4d33-a7eb-98bbb6ca52a8")
 	)
 	(pad "8" thru_hole circle
-		(at 1.37 1.27)
+		(at 1.37 -10.2)
 		(size 1.5 1.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -243,7 +230,7 @@
 		(uuid "7995a1d2-95db-40d3-b4be-1a181941c24b")
 	)
 	(pad "9" thru_hole circle
-		(at 4.11 1.27)
+		(at 4.11 -10.2)
 		(size 1.5 1.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -251,7 +238,7 @@
 		(uuid "952f23f1-20b3-4b2b-a03c-f4a24b472bb6")
 	)
 	(pad "10" thru_hole circle
-		(at -12.5 0)
+		(at -12.5 -11.47)
 		(size 5 5)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
@@ -259,11 +246,23 @@
 		(uuid "06a45bc8-49f3-41f9-b341-1d383048da0c")
 	)
 	(pad "10" thru_hole circle
-		(at 12.5 0)
+		(at 12.5 -11.47)
 		(size 5 5)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "651ba756-7bbe-4764-ab16-4da9496d4ae8")
+	)
+	(embedded_fonts no)
+	(model "${LIBDIR}/3d/connectors/DTS09PYC.stp"
+		(offset
+			(xyz 0 0.5 7.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
 	)
 )

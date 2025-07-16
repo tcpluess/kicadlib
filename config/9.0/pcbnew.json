@@ -29,7 +29,7 @@
     "merge_segments": true
   },
   "color_picker": {
-    "default_tab": 0
+    "default_tab": 1
   },
   "cross_probing": {
     "auto_highlight": true,
@@ -52,7 +52,7 @@
     "flip_left_right": true,
     "magnetic_all_layers": false,
     "magnetic_graphics": true,
-    "magnetic_pads": 2,
+    "magnetic_pads": 1,
     "magnetic_tracks": 2,
     "pcb_use_45_degree_limit": false,
     "polar_coords": false,
@@ -112,8 +112,10 @@
     "use_relative_paths": false
   },
   "find_replace": {
-    "find_history": [],
-    "find_string": "",
+    "find_history": [
+      "v5"
+    ],
+    "find_string": "v5",
     "match_case": false,
     "match_mode": 0,
     "replace_history": [],
@@ -595,7 +597,7 @@
       "/storage/work/users/pluess/electronics/vacuumgauge/displayboard/displayboard.kicad_pcb"
     ],
     "first_run_shown": false,
-    "last_footprint3d_dir": "/home/pluess/kicadlib/3d/resistors",
+    "last_footprint3d_dir": "/home/pluess/kicadlib/3d/soic",
     "last_footprint_lib_dir": "/tmp/FTSH-105-XX-X-DV",
     "last_imperial_units": 0,
     "last_metric_units": 1,
@@ -644,8 +646,8 @@
       "axes_enabled": false,
       "fast_grid_1": 4,
       "fast_grid_2": 5,
-      "last_size": 9,
-      "line_width": 0.5,
+      "last_size": 21,
+      "line_width": 1.0,
       "min_spacing": 10.0,
       "override_connected": false,
       "override_connected_idx": 16,

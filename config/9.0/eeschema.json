@@ -217,7 +217,8 @@
       "Description"
     ],
     "open_libs": [
-      "parts - Optoelectronics"
+      "-- Recently Used --",
+      "parts - Resistors"
     ]
   },
   "lib_view": {
@@ -361,7 +362,7 @@
       "fast_grid_1": 0,
       "fast_grid_2": 0,
       "last_size": 0,
-      "line_width": 0.5,
+      "line_width": 1.0,
       "min_spacing": 10.0,
       "override_connected": false,
       "override_connected_idx": 0,
@@ -374,7 +375,7 @@
       "override_wires": false,
       "override_wires_idx": 0,
       "overrides_enabled": true,
-      "show": true,
+      "show": false,
       "sizes": [
         {
           "name": "",

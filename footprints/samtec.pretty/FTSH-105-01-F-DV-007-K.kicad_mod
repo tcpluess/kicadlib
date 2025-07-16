@@ -1,0 +1,144 @@
+(footprint "FTSH-105-01-F-DV-007-K"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Pin Header, 1.27mm pitch, pin 7 keyed")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fb50fc7-531f-4f5a-a1da-c93d86d41a87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FTSH-105-XX-X-DV"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ce7a7a3-bff2-4751-8c5b-f8acb7138c17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94891de6-fbb2-48de-8395-2e554d4cc2b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3346f60d-4585-4f99-b596-a1ab19c63901")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.225 2.54)
+		(end 3.125 -2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0664c4ce-4845-438d-8f3a-d64201ddd021")
+	)
+	(fp_rect
+		(start -1.32 2.54)
+		(end 1.22 1.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4ff0a287-e67e-4079-b83e-751f7a35f2f5")
+	)
+	(pad "1" smd rect
+		(at -2.54 2.035)
+		(size 0.8 2.9)
+		(layers "F.Cu" "F.Mask")
+		(uuid "b9a39dd9-5322-4f00-a99c-d5800bd8bf8a")
+	)
+	(pad "2" smd rect
+		(at -2.54 -2.035)
+		(size 0.8 2.9)
+		(layers "F.Cu" "F.Mask")
+		(uuid "2d04d2e5-ddd7-4794-a72c-45fe1b62185c")
+	)
+	(pad "3" smd rect
+		(at -1.27 2.035)
+		(size 0.8 2.9)
+		(layers "F.Cu" "F.Mask")
+		(uuid "bf71ca3d-36ca-4131-9d0d-f8b27c37b75c")
+	)
+	(pad "4" smd rect
+		(at -1.27 -2.035)
+		(size 0.8 2.9)
+		(layers "F.Cu" "F.Mask")
+		(uuid "5d111d0f-ab6c-4153-85a4-74f5f6b603cf")
+	)
+	(pad "5" smd rect
+		(at 0 2.035)
+		(size 0.8 2.9)
+		(layers "F.Cu" "F.Mask")
+		(uuid "90d89106-849d-4156-86c0-78406ba1e862")
+	)
+	(pad "6" smd rect
+		(at 0 -2.035)
+		(size 0.8 2.9)
+		(layers "F.Cu" "F.Mask")
+		(uuid "68f4f619-e6ac-49bb-9c38-ae324972ebcf")
+	)
+	(pad "8" smd rect
+		(at 1.27 -2.035)
+		(size 0.8 2.9)
+		(layers "F.Cu" "F.Mask")
+		(uuid "22b2589b-41d0-48b7-b18a-0cffa2a3bc3f")
+	)
+	(pad "9" smd rect
+		(at 2.54 2.035)
+		(size 0.8 2.9)
+		(layers "F.Cu" "F.Mask")
+		(uuid "db9f0a41-25ca-4f5e-8277-737cda0a9446")
+	)
+	(pad "10" smd rect
+		(at 2.54 -2.035)
+		(size 0.8 2.9)
+		(layers "F.Cu" "F.Mask")
+		(uuid "d890646a-49f5-498f-bcd4-89c26fcb33dc")
+	)
+	(embedded_fonts no)
+	(model "${LIBDIR}/3d/connectors/FTSH-105-01-F-DV-007-K.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

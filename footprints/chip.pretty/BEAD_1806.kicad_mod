@@ -1,0 +1,94 @@
+(footprint "BEAD_1806"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Chip Ferrite Bead 1806")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d3466592-a975-4eb0-aad8-b2decb18f987")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b42436aa-2627-458f-a566-96326976f480")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e1afe72-d98c-4bb8-86ac-616818d9f7ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5cf0ea4-704a-4b54-a45b-52d8621a17a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.25 0.8)
+		(end 2.25 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "eef6598a-b14c-49c1-a3dd-f9a081929312")
+	)
+	(pad "1" smd rect
+		(at -2.25 0)
+		(size 1.2 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "7dd120f7-777c-40f4-ba29-c1dcdc1ab970")
+	)
+	(pad "2" smd rect
+		(at 2.25 0)
+		(size 1.2 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "9879ba47-6edd-4d96-b631-4c11f07b0b21")
+	)
+	(embedded_fonts no)
+	(model "${LIBDIR}/3d/ferrites/L_1806_4516Metric.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

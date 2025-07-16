@@ -1,0 +1,146 @@
+(footprint "brd_160x100"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Euro Card Board, 160x100 mm")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39683011-cb36-47a1-ab6d-2e95b95fb268")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "brd_160x100"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69002507-21ec-44a8-9ca2-bba2ca6ed0ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30876e02-8352-4461-816c-a96f5a482c10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ae02aaf-d068-403d-a125-4773ae92c01c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -80 50)
+		(end 80 -50)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "a5a1fba1-685c-4c0f-b08b-ac12f5e29316")
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Fab")
+		(uuid "2dac9419-637d-4da2-8606-d88439e7dd40")
+		(pts
+			(xy -80 -50) (xy -80 50)
+		)
+		(height -11.6)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "100.0000 mm"
+			(at -92.7 0 90)
+			(layer "F.Fab")
+			(uuid "2dac9419-637d-4da2-8606-d88439e7dd40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Fab")
+		(uuid "cecff493-c773-4f53-851c-12cd6f08a147")
+		(pts
+			(xy -80 50) (xy 80 50)
+		)
+		(height 11.2)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "160.0000 mm"
+			(at 0 60.1 0)
+			(layer "F.Fab")
+			(uuid "cecff493-c773-4f53-851c-12cd6f08a147")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

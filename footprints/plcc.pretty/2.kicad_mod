@@ -1,0 +1,107 @@
+(footprint "2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PLCC2")
+	(tags "Generic PLCC2 LED")
+	(property "Reference" "REF**"
+		(at 0 -2.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ef38376c-c136-4a68-ab2b-e439eae9e6d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "2"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6cc1b6a-a380-40d3-9977-59c015e7f6f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2a4a154-5cdd-4453-892b-bd021e13c70a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e87619ce-f0d7-4931-b200-8f33e3faa765")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.2 -1.7)
+		(end 1.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "95450222-3b55-47b1-95c9-d1fb29a1b9ad")
+	)
+	(fp_rect
+		(start -1.5 1.7)
+		(end 1.5 -1.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fb08e4cd-9cea-4dc3-abb6-f83d8e0428ef")
+	)
+	(pad "1" smd rect
+		(at 0 -1.5)
+		(size 2.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "3750f386-4003-43a5-bfe9-370258af2781")
+	)
+	(pad "2" smd rect
+		(at 0 1.5)
+		(size 2.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "aa4c7094-ab54-4bdf-9cc9-b13ec3d93ec2")
+	)
+	(embedded_fonts no)
+	(model "${LIBDIR}/3d/plcc/LED_PLCC2.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
