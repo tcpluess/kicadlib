@@ -11,7 +11,7 @@
   "appearance": {
     "color_theme": "default",
     "default_font": "osifont",
-    "edit_label_height": 489,
+    "edit_label_height": 499,
     "edit_label_visible_columns": "0 1 2 3 4 5 6 7",
     "edit_label_width": 989,
     "edit_sheet_height": 475,
@@ -106,7 +106,7 @@
     "zoom_to_fit": true
   },
   "design_block_chooser": {
-    "height": 912,
+    "height": 885,
     "keep_annotations": false,
     "lib_tree": {
       "column_widths": {
@@ -117,7 +117,7 @@
     "place_as_sheet": false,
     "repeated_placement": false,
     "sash_pos_h": 440,
-    "sash_pos_v": 576,
+    "sash_pos_v": 563,
     "sort_mode": 0,
     "width": 300
   },
@@ -165,7 +165,7 @@
     "fields_group_by": {},
     "fields_show": {},
     "height": 713,
-    "page": 0,
+    "page": 1,
     "scope": 0,
     "selection_mode": 0,
     "width": 1660
@@ -213,12 +213,13 @@
     },
     "columns": [
       "Item",
-      "Value",
-      "Description"
+      "Description",
+      "Value"
     ],
     "open_libs": [
-      "-- Recently Used --",
-      "parts - Resistors"
+      "parts - Capacitors_Ceramic",
+      "parts - Capacitors_Misc",
+      "parts - Diodes"
     ]
   },
   "lib_view": {
@@ -226,13 +227,87 @@
     "lib_list_width": 0,
     "show_pin_electrical_type": true,
     "window": {
+      "cursor": {
+        "always_show_cursor": true,
+        "fullscreen_cursor": false
+      },
       "display": 1,
+      "grid": {
+        "axes_enabled": false,
+        "fast_grid_1": 1,
+        "fast_grid_2": 2,
+        "last_size": 1,
+        "line_width": 1.0,
+        "min_spacing": 10.0,
+        "override_connected": true,
+        "override_connected_idx": 1,
+        "override_graphics": false,
+        "override_graphics_idx": 2,
+        "override_text": true,
+        "override_text_idx": 3,
+        "override_vias": false,
+        "override_vias_idx": 0,
+        "override_wires": true,
+        "override_wires_idx": 1,
+        "overrides_enabled": true,
+        "show": true,
+        "sizes": [
+          {
+            "name": "",
+            "x": "100 mil",
+            "y": "100 mil"
+          },
+          {
+            "name": "",
+            "x": "50 mil",
+            "y": "50 mil"
+          },
+          {
+            "name": "",
+            "x": "25 mil",
+            "y": "25 mil"
+          },
+          {
+            "name": "",
+            "x": "10 mil",
+            "y": "10 mil"
+          }
+        ],
+        "snap": 0,
+        "style": 0,
+        "user_grid_x": "",
+        "user_grid_y": ""
+      },
       "maximized": false,
+      "mru_path": "",
       "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=598;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=386;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Libraries;caption=;state=1020;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=200;besth=-1;minw=100;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Symbols;caption=;state=1020;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=300;besth=-1;minw=100;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=386;besth=149;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=38|dock_size(3,6,0)=38|dock_size(4,2,0)=202|dock_size(4,1,0)=420|dock_size(5,0,0)=388|",
       "pos_x": 1920,
       "pos_y": 27,
       "size_x": 1581,
-      "size_y": 1105
+      "size_y": 1105,
+      "zoom_factors": [
+        0.05,
+        0.07,
+        0.1,
+        0.15,
+        0.2,
+        0.3,
+        0.5,
+        0.7,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.5,
+        6.5,
+        10.0,
+        15.0,
+        20.0,
+        30.0,
+        45.0,
+        65.0,
+        100.0
+      ]
     }
   },
   "meta": {
@@ -267,8 +342,8 @@
     "hpgl_paper_size": 0,
     "hpgl_pen_size": 0.5,
     "other_open_file_after_plot": false,
-    "pdf_hierarchical_links": true,
-    "pdf_metadata": true,
+    "pdf_hierarchical_links": false,
+    "pdf_metadata": false,
     "pdf_property_popups": true
   },
   "plugins": {
@@ -298,8 +373,8 @@
     "thickness": 3
   },
   "simulator": {
-    "cursors_panel_height": 0,
-    "measurements_panel_height": 0,
+    "cursors_panel_height": 120,
+    "measurements_panel_height": 70,
     "mouse_wheel_actions": {
       "horizontal": 0,
       "vertical_unmodified": 4,
@@ -307,43 +382,117 @@
       "vertical_with_ctrl": 1,
       "vertical_with_shift": 3
     },
-    "plot_panel_height": 0,
-    "plot_panel_width": 0,
-    "signal_panel_height": 0,
+    "plot_panel_height": 728,
+    "plot_panel_width": 1271,
+    "signal_panel_height": 768,
     "white_background": false,
     "window": {
-      "display": 0,
-      "maximized": false,
-      "perspective": "",
-      "pos_x": 0,
-      "pos_y": 0,
+      "cursor": {
+        "always_show_cursor": true,
+        "fullscreen_cursor": false
+      },
+      "display": 1,
+      "grid": {
+        "axes_enabled": false,
+        "fast_grid_1": 1,
+        "fast_grid_2": 2,
+        "last_size": 1,
+        "line_width": 1.0,
+        "min_spacing": 10.0,
+        "override_connected": true,
+        "override_connected_idx": 1,
+        "override_graphics": false,
+        "override_graphics_idx": 2,
+        "override_text": true,
+        "override_text_idx": 3,
+        "override_vias": false,
+        "override_vias_idx": 0,
+        "override_wires": true,
+        "override_wires_idx": 1,
+        "overrides_enabled": true,
+        "show": true,
+        "sizes": [
+          {
+            "name": "",
+            "x": "100 mil",
+            "y": "100 mil"
+          },
+          {
+            "name": "",
+            "x": "50 mil",
+            "y": "50 mil"
+          },
+          {
+            "name": "",
+            "x": "25 mil",
+            "y": "25 mil"
+          },
+          {
+            "name": "",
+            "x": "10 mil",
+            "y": "10 mil"
+          }
+        ],
+        "snap": 0,
+        "style": 0,
+        "user_grid_x": "",
+        "user_grid_y": ""
+      },
+      "maximized": true,
+      "mru_path": "",
+      "perspective": "layout2|",
+      "pos_x": 1920,
+      "pos_y": 27,
       "size_x": 500,
-      "size_y": 400
+      "size_y": 400,
+      "zoom_factors": [
+        0.05,
+        0.07,
+        0.1,
+        0.15,
+        0.2,
+        0.3,
+        0.5,
+        0.7,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.5,
+        6.5,
+        10.0,
+        15.0,
+        20.0,
+        30.0,
+        45.0,
+        65.0,
+        100.0
+      ]
     }
   },
   "symbol_chooser": {
-    "height": 1126,
+    "height": 1200,
     "keep_symbol": true,
     "place_all_units": true,
     "sash_pos_h": 986,
     "sash_pos_v": 494,
     "sort_mode": 1,
-    "width": 1609
+    "width": 1693
   },
   "system": {
     "file_history": [
+      "/storage/work/users/pluess/electronics/encoderinterface/encoderinterface/encoderinterface.kicad_sch",
+      "/storage/work/users/pluess/electronics/c-band_rfe/cband_rfe/cband_rfe.kicad_sch",
       "/storage/work/users/pluess/electronics/gpsdo/gpsdo.kicad_sch",
+      "/storage/work/users/pluess/electronics/sma_testboard/sma_testboard.kicad_sch",
+      "/storage/work/users/pluess/electronics/cryowara_mixer/mxr.kicad_sch",
+      "/storage/work/users/pluess/electronics/mixer_driver/mixer_driver.kicad_sch",
       "/storage/work/users/pluess/electronics/10mhz_refclock/10mhz_refclock.kicad_sch",
       "/storage/work/users/pluess/electronics/phasenoise/phaseoise_testset/phaseoise_testset.kicad_sch",
-      "/storage/work/users/pluess/electronics/gunterantenna/lna/gunterlna/gunterlna.kicad_sch",
-      "/storage/work/users/pluess/electronics/phasenoise/phaseoiste_testset/phaseoiste_testset.kicad_sch",
-      "/storage/work/users/pluess/electronics/phasenoise/iap_pnts/iap_pnts/iap_pnts.kicad_sch",
-      "/storage/work/users/pluess/electronics/vacuumgauge/pfeiffer-mainboard/mainboard.kicad_sch",
-      "/storage/work/users/pluess/electronics/dualmixer_22ghz/dualmixer_22ghz.kicad_sch",
-      "/storage/work/users/pluess/electronics/vacuumgauge/mainboard/mainboard.kicad_sch"
+      "/storage/work/users/pluess/electronics/gunterantenna/lna/gunterlna/gunterlna.kicad_sch"
     ],
     "first_run_shown": false,
-    "last_imperial_units": 0,
+    "last_imperial_units": 5,
     "last_metric_units": 1,
     "last_symbol_lib_dir": "/home/pluess/Downloads",
     "max_undo_items": 0,
@@ -388,9 +537,9 @@
       "user_grid_x": "",
       "user_grid_y": ""
     },
-    "maximized": true,
+    "maximized": false,
     "mru_path": "",
-    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1172;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=386;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SchematicHierarchy;caption=Schematic Hierarchy;state=2099148;dir=4;layer=3;row=0;pos=1;prop=100000;bestw=300;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=2272;floaty=72;floatw=200;floath=200|name=PropertiesManager;caption=Properties;state=2099148;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=300;floath=400|name=SelectionFilter;caption=Selection Filter;state=2098636;dir=4;layer=3;row=0;pos=2;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DesignBlocks;caption=Design Blocks;state=2099150;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=800;floath=600|name=NetNavigator;caption=Net Navigator;state=2099150;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=200;floath=200|name=OptToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=460;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=890;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=386;besth=149;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(3,6,0)=38|dock_size(4,3,0)=302|dock_size(4,2,0)=34|dock_size(2,2,0)=34|dock_size(5,0,0)=388|",
+    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1172;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=386;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SchematicHierarchy;caption=Schematic Hierarchy;state=2099148;dir=4;layer=3;row=0;pos=1;prop=100000;bestw=300;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=2272;floaty=99;floatw=200;floath=200|name=PropertiesManager;caption=Properties;state=2099148;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=300;floath=400|name=SelectionFilter;caption=Selection Filter;state=2098636;dir=4;layer=3;row=0;pos=2;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DesignBlocks;caption=Design Blocks;state=2099150;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=800;floath=600|name=NetNavigator;caption=Net Navigator;state=2099150;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=200;floath=200|name=OptToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=460;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=890;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=386;besth=149;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(3,6,0)=38|dock_size(4,3,0)=302|dock_size(4,2,0)=34|dock_size(2,2,0)=34|dock_size(5,0,0)=388|",
     "pos_x": 1920,
     "pos_y": 27,
     "size_x": 1936,

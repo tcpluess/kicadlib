@@ -28,4 +28,5 @@
   (lib (name "mech")(type "KiCad")(uri "/home/pluess/kicadlib/footprints/mech.pretty")(options "")(descr ""))
   (lib (name "plcc")(type "KiCad")(uri "/home/pluess/kicadlib/footprints/plcc.pretty")(options "")(descr ""))
   (lib (name "boards")(type "KiCad")(uri "/home/pluess/kicadlib/footprints/boards.pretty")(options "")(descr ""))
+  (lib (name "lga")(type "KiCad")(uri "/home/pluess/kicadlib/footprints/lga.pretty")(options "")(descr ""))
 )

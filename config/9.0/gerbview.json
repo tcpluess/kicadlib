@@ -70,15 +70,15 @@
       "/tmp/NE612/NE612.Drill"
     ],
     "file_history": [
-      "/tmp/NE612/NE612.Top",
-      "/tmp/NE612/NE612.StopTop",
-      "/tmp/NE612/NE612.StopBot",
-      "/tmp/NE612/NE612.PosiTop",
-      "/tmp/NE612/NE612.PasteTop",
-      "/tmp/NE612/NE612.Outline",
-      "/tmp/NE612/NE612.Bot",
-      "/tmp/xa-JYN2W2/bias-Margin.gbr",
-      "/storage/work/users/pluess/electronics/22ghz_mixer/pdf/22ghz_mixer-F_Fab.gbr"
+      "/storage/work/users/pluess/electronics/sma_testboard/gerber/sma_testboard-In2_Cu.gbr",
+      "/storage/work/users/pluess/electronics/sma_testboard/gerber/sma_testboard-In1_Cu.gbr",
+      "/storage/work/users/pluess/electronics/sma_testboard/gerber/sma_testboard-F_Silkscreen.gbr",
+      "/storage/work/users/pluess/electronics/sma_testboard/gerber/sma_testboard-F_Paste.gbr",
+      "/storage/work/users/pluess/electronics/sma_testboard/gerber/sma_testboard-F_Mask.gbr",
+      "/storage/work/users/pluess/electronics/sma_testboard/gerber/sma_testboard-F_Cu.gbr",
+      "/storage/work/users/pluess/electronics/sma_testboard/gerber/sma_testboard-Edge_Cuts.gbr",
+      "/storage/work/users/pluess/electronics/sma_testboard/gerber/sma_testboard-B_Silkscreen.gbr",
+      "/storage/work/users/pluess/electronics/sma_testboard/gerber/sma_testboard-B_Paste.gbr"
     ],
     "first_run_shown": false,
     "job_file_history": [],
@@ -231,11 +231,11 @@
       "user_grid_x": "10 mil",
       "user_grid_y": "10 mil"
     },
-    "maximized": true,
-    "mru_path": "/tmp/NE612",
-    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=610;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=4;row=0;pos=0;prop=100000;bestw=1064;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=620;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Layers Manager;state=1532;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=293;besth=32;minw=293;minh=32;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=293;floath=32|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=188;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=38|dock_size(1,4,0)=38|dock_size(3,6,0)=38|dock_size(4,3,0)=34|dock_size(2,3,0)=293|dock_size(5,0,0)=384|",
-    "pos_x": 1920,
-    "pos_y": 27,
+    "maximized": false,
+    "mru_path": "/storage/work/users/pluess/electronics/sma_testboard/gerber",
+    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=610;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=4;row=0;pos=0;prop=100000;bestw=1064;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=620;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Layers Manager;state=1532;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=378;besth=32;minw=378;minh=32;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=378;floath=32|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=188;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=38|dock_size(1,4,0)=38|dock_size(3,6,0)=38|dock_size(4,3,0)=34|dock_size(2,3,0)=378|dock_size(5,0,0)=384|",
+    "pos_x": 2248,
+    "pos_y": 356,
     "size_x": 1280,
     "size_y": 720,
     "zoom_factors": [

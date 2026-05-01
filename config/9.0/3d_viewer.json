@@ -9,7 +9,7 @@
   "camera": {
     "animation_enabled": true,
     "moving_speed_multiplier": 3,
-    "projection_mode": 0,
+    "projection_mode": 1,
     "rotation_increment": 10.0
   },
   "color_picker": {
@@ -40,108 +40,83 @@
     {
       "colors": [
         {
-          "color": "rgb(179, 26, 26)",
+          "color": "rgb(194, 194, 194)",
           "layer": ""
         },
         {
-          "color": "rgb(0, 0, 0)",
+          "color": "rgb(102, 102, 128)",
           "layer": "background_bottom"
         },
         {
-          "color": "rgb(0, 0, 0)",
+          "color": "rgb(204, 204, 230)",
           "layer": "background_top"
         },
         {
-          "color": "rgb(0, 0, 0)",
+          "color": "rgba(110, 115, 77, 0.902)",
           "layer": "board"
         },
         {
-          "color": "rgb(0, 0, 0)",
+          "color": "rgb(191, 156, 59)",
           "layer": "copper"
         },
         {
-          "color": "rgb(0, 0, 0)",
+          "color": "rgb(191, 156, 59)",
           "layer": "copper_bottom"
         },
         {
-          "color": "rgb(0, 0, 0)",
+          "color": "rgb(240, 240, 240)",
           "layer": "silkscreen_bottom"
         },
         {
-          "color": "rgb(0, 0, 0)",
+          "color": "rgb(240, 240, 240)",
           "layer": "silkscreen_top"
         },
         {
-          "color": "rgb(0, 0, 0)",
+          "color": "rgba(20, 51, 36, 0.831)",
           "layer": "soldermask_bottom"
         },
         {
-          "color": "rgb(0, 0, 0)",
+          "color": "rgba(20, 51, 36, 0.831)",
           "layer": "soldermask_top"
         },
         {
-          "color": "rgb(0, 0, 0)",
+          "color": "rgb(128, 128, 128)",
           "layer": "solderpaste"
         },
         {
-          "color": "rgb(102, 102, 128)",
+          "color": "rgb(217, 217, 217)",
           "layer": "user_comments"
         },
         {
-          "color": "rgb(204, 204, 230)",
+          "color": "rgb(217, 217, 217)",
           "layer": "user_drawings"
         },
         {
-          "color": "rgba(110, 115, 77, 0.902)",
+          "color": "rgb(179, 26, 26)",
           "layer": "user_eco1"
         },
         {
-          "color": "rgb(191, 156, 59)",
+          "color": "rgb(179, 26, 26)",
           "layer": "user_eco2"
-        },
-        {
-          "color": "rgb(191, 156, 59)",
-          "layer": "th_models"
-        },
-        {
-          "color": "rgb(240, 240, 240)",
-          "layer": "smd_models"
-        },
-        {
-          "color": "rgb(240, 240, 240)",
-          "layer": "virtual_models"
-        },
-        {
-          "color": "rgba(20, 51, 36, 0.831)",
-          "layer": "non_pos_file_models"
-        },
-        {
-          "color": "rgba(20, 51, 36, 0.831)",
-          "layer": "dnp_models"
-        },
-        {
-          "color": "rgb(128, 128, 128)",
-          "layer": "3d_axes"
-        },
-        {
-          "color": "rgb(217, 217, 217)",
-          "layer": "off_board_silk"
         }
       ],
       "layers": [
-        "",
         "fp_text",
         "fp_values",
         "fp_references",
-        "user_eco1",
-        "user_eco2",
+        "board",
+        "copper",
+        "copper_bottom",
+        "silkscreen_bottom",
+        "silkscreen_top",
+        "soldermask_bottom",
+        "soldermask_top",
+        "solderpaste",
+        "adhesive",
         "th_models",
         "smd_models",
         "virtual_models",
-        "non_pos_file_models",
-        "dnp_models",
-        "3d_axes",
-        "bounding_boxes"
+        "3d_axes"
       ],
       "name": "legacy colors"
     }
@@ -233,17 +208,17 @@
     "raytrace_spread_refractions": 0.02500000037252903,
     "raytrace_spread_shadows": 0.05000000074505806,
     "realistic": true,
-    "show_adhesive": false,
+    "show_adhesive": true,
     "show_axis": true,
-    "show_board_body": false,
-    "show_comments": false,
+    "show_board_body": true,
+    "show_comments": true,
     "show_copper_bottom": true,
     "show_copper_top": true,
-    "show_drawings": false,
+    "show_drawings": true,
     "show_eco": true,
-    "show_eco1": false,
-    "show_eco2": false,
-    "show_footprints_dnp": false,
+    "show_eco1": true,
+    "show_eco2": true,
+    "show_footprints_dnp": true,
     "show_footprints_insert": true,
     "show_footprints_normal": true,
     "show_footprints_not_in_posfile": true,
@@ -255,10 +230,10 @@
     "show_silkscreen_bottom": true,
     "show_silkscreen_top": true,
     "show_soldermask": true,
-    "show_soldermask_bottom": false,
-    "show_soldermask_top": false,
+    "show_soldermask_bottom": true,
+    "show_soldermask_top": true,
     "show_solderpaste": true,
-    "show_user1": false,
+    "show_user1": true,
     "show_user10": false,
     "show_user11": false,
     "show_user12": false,
@@ -269,7 +244,7 @@
     "show_user17": false,
     "show_user18": false,
     "show_user19": false,
-    "show_user2": false,
+    "show_user2": true,
     "show_user20": false,
     "show_user21": false,
     "show_user22": false,
@@ -280,7 +255,7 @@
     "show_user27": false,
     "show_user28": false,
     "show_user29": false,
-    "show_user3": false,
+    "show_user3": true,
     "show_user30": false,
     "show_user31": false,
     "show_user32": false,
@@ -291,7 +266,7 @@
     "show_user37": false,
     "show_user38": false,
     "show_user39": false,
-    "show_user4": false,
+    "show_user4": true,
     "show_user40": false,
     "show_user41": false,
     "show_user42": false,
@@ -470,6 +445,25 @@
     "pos_y": 27,
     "size_x": 1280,
     "size_y": 720,
-    "zoom_factors": []
+    "zoom_factors": [
+      0.13,
+      0.22,
+      0.35,
+      0.6,
+      1.0,
+      1.5,
+      2.2,
+      3.5,
+      5.0,
+      8.0,
+      13.0,
+      20.0,
+      35.0,
+      50.0,
+      80.0,
+      130.0,
+      220.0,
+      300.0
+    ]
   }
 }

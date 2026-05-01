@@ -263,7 +263,7 @@
 	(embedded_fonts no)
 	(model "${LIBDIR}/3d/misc/lea.stp"
 		(offset
-			(xyz 0 -0.35 0)
+			(xyz 0 -0.35 0.4)
 		)
 		(scale
 			(xyz 1 1 1)

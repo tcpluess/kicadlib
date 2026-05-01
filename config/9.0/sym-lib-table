@@ -24,4 +24,7 @@
   (lib (name "tdc")(type "KiCad")(uri "${SYMBOL_DIR}/tdc.kicad_sym")(options "")(descr "")(hidden))
   (lib (name "oscillator")(type "KiCad")(uri "${SYMBOL_DIR}/oscillator.kicad_sym")(options "")(descr "")(hidden))
   (lib (name "analogswitch")(type "KiCad")(uri "${SYMBOL_DIR}/analogswitch.kicad_sym")(options "")(descr "")(hidden))
+  (lib (name "mech")(type "KiCad")(uri "${SYMBOL_DIR}/mech.kicad_sym")(options "")(descr "")(hidden))
+  (lib (name "rfswitch")(type "KiCad")(uri "/home/pluess/kicadlib/symbols/rfswitch.kicad_sym")(options "")(descr ""))
+  (lib (name "rfamp")(type "KiCad")(uri "/home/pluess/kicadlib/symbols/rfamp.kicad_sym")(options "")(descr ""))
 )

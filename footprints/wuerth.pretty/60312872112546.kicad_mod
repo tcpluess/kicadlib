@@ -1,0 +1,285 @@
+(footprint "60312872112546"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Würth solderless SMA Connector, DC..27GHz")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f768b2c7-2f90-4f81-aff5-a816c3baee95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "60312872112546"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1362cfde-98a5-4612-84fb-3c889d08863c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec28c84c-5267-4a62-a666-199c067c43fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2dcfcda8-a7f7-4d6c-a298-bd928c0f24e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 1.4 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "0e367ba2-895c-42da-b8a9-4bbeb3bc245a")
+	)
+	(fp_line
+		(start -4.216399 -2.8448)
+		(end 4.2164 -2.844799)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d945e05b-b9ce-4409-9e1f-25cd79806694")
+	)
+	(fp_line
+		(start 4.2164 2.844799)
+		(end -4.2164 2.844798)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "166c6c88-24b1-4aa3-83fe-a9376a19be90")
+	)
+	(fp_arc
+		(start -5.086346 0)
+		(mid -4.864 -1.487422)
+		(end -4.2164 -2.8448)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7d16c9ed-5ecc-4de8-80cb-b5d16dbfd369")
+	)
+	(fp_arc
+		(start -4.2164 2.8448)
+		(mid -4.864 1.487422)
+		(end -5.086346 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c6785569-0cb3-4913-9b46-ee913fd77eb6")
+	)
+	(fp_arc
+		(start 4.2164 -2.8448)
+		(mid 4.864 -1.487422)
+		(end 5.086346 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "bffba67d-1d68-4433-8543-15fc385d7bd5")
+	)
+	(fp_arc
+		(start 5.086346 0)
+		(mid 4.864 1.487422)
+		(end 4.2164 2.8448)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f94a7dba-68c4-49c2-a164-ae8cb0a3770e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.0828 1.3208)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6147ef80-f757-421e-b82a-8caadf2fe82b")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "aa132bd1-2612-46e5-978a-a3d42a58a471")
+	)
+	(pad "2" thru_hole circle
+		(at -3.58 0)
+		(size 2.7 2.7)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ae7d8ae4-0c07-4087-82b4-20bd5c80b78f")
+	)
+	(pad "2" thru_hole circle
+		(at -1.6 0)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "e05f777a-a4ee-4678-b508-ec66ab1decaf")
+	)
+	(pad "2" thru_hole circle
+		(at -1.2 -1.2)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "61eec9f7-da19-4bb3-8aff-13bf29a47bd5")
+	)
+	(pad "2" smd custom
+		(at 0 -1.7)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start 5 1.7)
+						(mid 4.775442 0.218468)
+						(end 4.122 -1.13)
+					)
+					(arc
+						(start -4.122 -1.13)
+						(mid -4.775463 0.218462)
+						(end -5 1.7)
+					)
+					(arc
+						(start -1.3 1.7)
+						(mid 0 0.4)
+						(end 1.3 1.7)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "ba3b2657-1d88-48af-ac6b-8b662abc0463")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -1.6)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "f80f4992-c6d4-442f-a909-de7809706029")
+	)
+	(pad "2" smd custom
+		(at 0 1.7 180)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start 5 1.7)
+						(mid 4.775442 0.218468)
+						(end 4.122 -1.13)
+					)
+					(arc
+						(start -4.122 -1.13)
+						(mid -4.775463 0.218462)
+						(end -5 1.7)
+					)
+					(arc
+						(start -1.3 1.7)
+						(mid 0 0.4)
+						(end 1.3 1.7)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "814812a6-4bcb-4bd3-baab-74057905d1f5")
+	)
+	(pad "2" thru_hole circle
+		(at 1.2 -1.2)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "08f9694f-40d7-4c57-81a4-2d605055cd20")
+	)
+	(pad "2" thru_hole circle
+		(at 1.6 0)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "98d3c2f8-ceeb-4573-8629-8572568176bb")
+	)
+	(pad "2" thru_hole circle
+		(at 3.58 0)
+		(size 2.7 2.7)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "654361ab-a058-431e-a45c-c6a8fff2659e")
+	)
+	(embedded_fonts no)
+	(model "${LIBDIR}/3d/connectors/60312872112546.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+)

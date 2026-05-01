@@ -235,7 +235,7 @@
 	(embedded_fonts no)
 	(model "/home/pluess/kicadlib/3d/misc/neo.stp"
 		(offset
-			(xyz 47.5 -18.1 0)
+			(xyz 47.5 -18.1 0.4)
 		)
 		(scale
 			(xyz 1 1 1)
