@@ -374,7 +374,8 @@
     "other_open_file_after_plot": false,
     "pdf_hierarchical_links": false,
     "pdf_metadata": false,
-    "pdf_property_popups": true
+    "pdf_property_popups": true,
+    "plot_directory": "pdf/"
   },
   "plugins": {
     "actions": []
@@ -527,6 +528,7 @@
   },
   "system": {
     "file_history": [
+      "/tmp/hhhhhhh/hhhhhhh.kicad_sch",
       "/tmp/galercin/galercin.kicad_sch",
       "/home/tobias/popo/popo.kicad_sch",
       "/tmp/fffffff/fffffff.kicad_sch",
@@ -534,8 +536,7 @@
       "/tmp/ffffffff/g/g.kicad_sch",
       "/tmp/ffffffff/ffffffff.kicad_sch",
       "/tmp/folder/test/test.kicad_sch",
-      "/tmp/affen/gas/huhuhu/lolololo/lolololo.kicad_sch",
-      "/tmp/affen/gas/huhuhu/huhuhu.kicad_sch"
+      "/tmp/affen/gas/huhuhu/lolololo/lolololo.kicad_sch"
     ],
     "first_run_shown": false,
     "last_imperial_units": 5,
