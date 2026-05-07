@@ -668,6 +668,7 @@
   },
   "system": {
     "file_history": [
+      "/tmp/testproj/a/a.kicad_pcb",
       "/tmp/galercin/template/g/g.kicad_pcb",
       "/home/tobias/popo/popo.kicad_pcb",
       "/tmp/ffffffff/g/fhfhfh/fhfhfh.kicad_pcb",
@@ -675,8 +676,7 @@
       "/tmp/folder/test/test.kicad_pcb",
       "/tmp/affen/gas/huhuhu/lolololo/lolololo.kicad_pcb",
       "/tmp/affen/gas/huhuhu/huhuhu.kicad_pcb",
-      "/home/pluess/Nextcloud/projects/electronics/field oriented controller/bldcfoc/bldcfoc.kicad_pcb",
-      "/storage/work/users/pluess/electronics/encoderinterface/encoderinterface/encoderinterface.kicad_pcb"
+      "/home/pluess/Nextcloud/projects/electronics/field oriented controller/bldcfoc/bldcfoc.kicad_pcb"
     ],
     "first_run_shown": false,
     "last_footprint3d_dir": "/home/pluess/Downloads",

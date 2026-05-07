@@ -77,7 +77,7 @@
   "lib_table_width": 389,
   "lib_tree": {
     "column_widths": {
-      "Description": 300,
+      "Description": 299,
       "Item": 300
     },
     "columns": [
@@ -85,7 +85,8 @@
       "Description"
     ],
     "open_libs": [
-      "diodes"
+      "diodes",
+      "display"
     ]
   },
   "library": {
@@ -156,7 +157,7 @@
       "cross_hair_mode": 1,
       "fullscreen_cursor": true
     },
-    "display": 1,
+    "display": 0,
     "grid": {
       "axes_enabled": true,
       "fast_grid_1": 0,

@@ -528,6 +528,7 @@
   },
   "system": {
     "file_history": [
+      "/tmp/testproj/a/a.kicad_sch",
       "/tmp/hhhhhhh/hhhhhhh.kicad_sch",
       "/tmp/galercin/galercin.kicad_sch",
       "/home/tobias/popo/popo.kicad_sch",
@@ -535,8 +536,7 @@
       "/tmp/ffffffff/g/fhfhfh/fhfhfh.kicad_sch",
       "/tmp/ffffffff/g/g.kicad_sch",
       "/tmp/ffffffff/ffffffff.kicad_sch",
-      "/tmp/folder/test/test.kicad_sch",
-      "/tmp/affen/gas/huhuhu/lolololo/lolololo.kicad_sch"
+      "/tmp/folder/test/test.kicad_sch"
     ],
     "first_run_shown": false,
     "last_imperial_units": 5,
