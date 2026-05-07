@@ -244,7 +244,10 @@
       "Value"
     ],
     "open_libs": [
-      "parts - Drivers"
+      "parts - ADCs",
+      "parts - Drivers",
+      "parts - Microcontrollers",
+      "parts - SAW"
     ]
   },
   "lib_view": {
@@ -514,25 +517,25 @@
     }
   },
   "symbol_chooser": {
-    "height": 1058,
+    "height": 1097,
     "keep_symbol": true,
     "place_all_units": true,
     "sash_pos_h": 986,
     "sash_pos_v": 494,
     "sort_mode": 1,
-    "width": 1707
+    "width": 1721
   },
   "system": {
     "file_history": [
-      "/home/pluess/Nextcloud/projects/electronics/field oriented controller/foc_board/foc_board.kicad_sch",
-      "/home/pluess/Nextcloud/projects/electronics/field oriented controller/bldcfoc/bldcfoc.kicad_sch",
-      "/storage/work/users/pluess/electronics/encoderinterface/encoderinterface/encoderinterface.kicad_sch",
-      "/storage/work/users/pluess/electronics/c-band_rfe/cband_rfe/cband_rfe.kicad_sch",
-      "/storage/work/users/pluess/electronics/gpsdo/gpsdo.kicad_sch",
-      "/storage/work/users/pluess/electronics/sma_testboard/sma_testboard.kicad_sch",
-      "/storage/work/users/pluess/electronics/cryowara_mixer/mxr.kicad_sch",
-      "/storage/work/users/pluess/electronics/mixer_driver/mixer_driver.kicad_sch",
-      "/storage/work/users/pluess/electronics/10mhz_refclock/10mhz_refclock.kicad_sch"
+      "/tmp/galercin/galercin.kicad_sch",
+      "/home/tobias/popo/popo.kicad_sch",
+      "/tmp/fffffff/fffffff.kicad_sch",
+      "/tmp/ffffffff/g/fhfhfh/fhfhfh.kicad_sch",
+      "/tmp/ffffffff/g/g.kicad_sch",
+      "/tmp/ffffffff/ffffffff.kicad_sch",
+      "/tmp/folder/test/test.kicad_sch",
+      "/tmp/affen/gas/huhuhu/lolololo/lolololo.kicad_sch",
+      "/tmp/affen/gas/huhuhu/huhuhu.kicad_sch"
     ],
     "first_run_shown": false,
     "last_imperial_units": 5,
@@ -547,7 +550,7 @@
     "aui_state": null,
     "cursor": {
       "always_show_cursor": true,
-      "cross_hair_mode": 0,
+      "cross_hair_mode": 1,
       "fullscreen_cursor": true
     },
     "display": 1,
@@ -556,7 +559,7 @@
       "fast_grid_1": 0,
       "fast_grid_2": 0,
       "last_size": 0,
-      "line_width": 1.0,
+      "line_width": 0.5,
       "min_spacing": 10.0,
       "override_connected": false,
       "override_connected_idx": 0,
@@ -568,7 +571,7 @@
       "override_vias_idx": 0,
       "override_wires": false,
       "override_wires_idx": 0,
-      "overrides_enabled": true,
+      "overrides_enabled": false,
       "show": false,
       "sizes": [
         {
@@ -584,8 +587,8 @@
     },
     "maximized": true,
     "mru_path": "",
-    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=TopMainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1363;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SchematicHierarchy;caption=Schematic Hierarchy;state=2099148;dir=4;layer=3;row=0;pos=1;prop=100000;bestw=300;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=2272;floaty=76;floatw=200;floath=200|name=PropertiesManager;caption=Properties;state=2099148;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=300;floath=400|name=SelectionFilter;caption=Selection Filter;state=2098636;dir=4;layer=3;row=0;pos=2;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DesignBlocks;caption=Design Blocks;state=2099150;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=800;floath=600|name=RemoteSymbol;caption=Remote Symbols;state=2099150;dir=2;layer=3;row=0;pos=3;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=80;floaty=220;floatw=800;floath=600|name=NetNavigator;caption=Net Navigator;state=2099150;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=200;floath=200|name=LeftToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=348;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=RightToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=810;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=188;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(3,6,0)=38|dock_size(4,3,0)=302|dock_size(5,0,0)=402|dock_size(1,6,0)=38|dock_size(4,2,0)=34|dock_size(2,2,0)=34|",
-    "pos_x": 1920,
+    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=TopMainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1363;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SchematicHierarchy;caption=Schematic Hierarchy;state=2099148;dir=4;layer=3;row=0;pos=1;prop=100000;bestw=300;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=352;floaty=76;floatw=200;floath=200|name=PropertiesManager;caption=Properties;state=2099148;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=300;floath=400|name=SelectionFilter;caption=Selection Filter;state=2098636;dir=4;layer=3;row=0;pos=2;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DesignBlocks;caption=Design Blocks;state=2099150;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=800;floath=600|name=RemoteSymbol;caption=Remote Symbols;state=2099150;dir=2;layer=3;row=0;pos=3;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=80;floaty=220;floatw=800;floath=600|name=NetNavigator;caption=Net Navigator;state=2099150;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=200;floath=200|name=LeftToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=348;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=RightToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=810;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=188;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(3,6,0)=38|dock_size(4,3,0)=302|dock_size(5,0,0)=402|dock_size(1,6,0)=38|dock_size(4,2,0)=34|dock_size(2,2,0)=34|",
+    "pos_x": 0,
     "pos_y": 27,
     "size_x": 1936,
     "size_y": 1066,

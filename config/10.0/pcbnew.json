@@ -13,7 +13,7 @@
     "appearance_expand_layer_display": true,
     "appearance_expand_net_display": true,
     "appearance_panel_tab": 0,
-    "design_blocks_panel_docked_width": -1,
+    "design_blocks_panel_docked_width": 880,
     "design_blocks_panel_float_height": -1,
     "design_blocks_panel_float_width": -1,
     "design_blocks_show": false,
@@ -49,18 +49,21 @@
     "zoom_to_fit": true
   },
   "design_block_chooser": {
-    "height": -1,
+    "height": 680,
     "keep_annotations": false,
     "lib_tree": {
-      "column_widths": null
+      "column_widths": {
+        "Description": 0,
+        "Item": 0
+      }
     },
     "place_as_group": true,
     "place_as_sheet": false,
     "repeated_placement": false,
-    "sash_pos_h": -1,
-    "sash_pos_v": -1,
+    "sash_pos_h": 440,
+    "sash_pos_v": 460,
     "sort_mode": 0,
-    "width": -1
+    "width": 880
   },
   "drc_dialog": {
     "refill_zones": true,
@@ -664,15 +667,15 @@
   },
   "system": {
     "file_history": [
+      "/home/tobias/popo/popo.kicad_pcb",
+      "/tmp/ffffffff/g/fhfhfh/fhfhfh.kicad_pcb",
+      "/tmp/ffffffff/g/g.kicad_pcb",
+      "/tmp/folder/test/test.kicad_pcb",
+      "/tmp/affen/gas/huhuhu/lolololo/lolololo.kicad_pcb",
+      "/tmp/affen/gas/huhuhu/huhuhu.kicad_pcb",
       "/home/pluess/Nextcloud/projects/electronics/field oriented controller/bldcfoc/bldcfoc.kicad_pcb",
       "/storage/work/users/pluess/electronics/encoderinterface/encoderinterface/encoderinterface.kicad_pcb",
-      "/storage/work/users/pluess/electronics/c-band_rfe/cband_rfe/cband_rfe.kicad_pcb",
-      "/storage/work/users/pluess/electronics/gpsdo/gpsdo.kicad_pcb",
-      "/home/pluess/.local/share/kicad/9.0/projects/untitled.kicad_pcb",
-      "/storage/work/users/pluess/electronics/sma_testboard/sma_testboard.kicad_pcb",
-      "/storage/work/users/pluess/electronics/cryowara_mixer/mxr.kicad_pcb",
-      "/storage/work/users/pluess/electronics/22ghz-mixer-experiment/22ghz_mixer/22ghz_mixer.kicad_pcb",
-      "/storage/work/users/pluess/electronics/10mhz_refclock/10mhz_refclock.kicad_pcb"
+      "/storage/work/users/pluess/electronics/c-band_rfe/cband_rfe/cband_rfe.kicad_pcb"
     ],
     "first_run_shown": false,
     "last_footprint3d_dir": "/home/pluess/Downloads",
@@ -717,17 +720,17 @@
     "aui_state": null,
     "cursor": {
       "always_show_cursor": true,
-      "cross_hair_mode": 0,
+      "cross_hair_mode": 1,
       "fullscreen_cursor": true
     },
-    "display": 1,
+    "display": 0,
     "footprint_text_shown_columns": "0 1 2 3 4 5 6",
     "grid": {
       "axes_enabled": false,
       "fast_grid_1": 4,
       "fast_grid_2": 5,
       "last_size": 10,
-      "line_width": 2.0,
+      "line_width": 0.5,
       "min_spacing": 10.0,
       "override_connected": false,
       "override_connected_idx": 16,
@@ -859,13 +862,13 @@
         }
       ],
       "snap": 0,
-      "style": 2,
+      "style": 0,
       "user_grid_x": "",
       "user_grid_y": ""
     },
     "maximized": true,
     "mru_path": "/storage/work/users/pluess/electronics/22ghz-mixer-experiment/22ghz_mixer",
-    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1026;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=1028;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=386;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=670;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=739;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=220;besth=-1;minw=200;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=220;floath=480|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=229;besth=-1;minw=229;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=229;floath=148|name=PropertiesManager;caption=Properties;state=2098684;dir=4;layer=5;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=300;floath=200|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=386;besth=149;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=NetInspector;caption=Net Inspector;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=300;floath=200|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(1,5,0)=38|dock_size(3,6,0)=38|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=266|dock_size(4,5,0)=300|dock_size(5,0,0)=388|",
+    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=TopMainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1163;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=TopAuxToolbar;caption=;state=139632;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=1384;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=386;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LeftToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=622;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=RightToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=819;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=220;besth=-1;minw=200;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=220;floath=480|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=229;besth=-1;minw=229;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=229;floath=148|name=DesignBlocks;caption=Design Blocks;state=2099150;dir=2;layer=5;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=800;floath=600|name=PropertiesManager;caption=Properties;state=2098684;dir=4;layer=5;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=300;floath=200|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=386;besth=149;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=NetInspector;caption=Net Inspector;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=300;floath=200|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(3,6,0)=38|dock_size(2,4,0)=266|dock_size(4,5,0)=300|dock_size(5,0,0)=388|dock_size(1,6,0)=38|dock_size(1,5,0)=38|dock_size(4,3,0)=34|dock_size(2,3,0)=34|",
     "pos_x": 1920,
     "pos_y": 27,
     "size_x": 1936,

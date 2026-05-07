@@ -153,7 +153,7 @@
     "aui_state": null,
     "cursor": {
       "always_show_cursor": true,
-      "cross_hair_mode": 0,
+      "cross_hair_mode": 1,
       "fullscreen_cursor": true
     },
     "display": 1,

@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "version": 1
+  },
+  "toolbars": [
+    {
+      "contents": [
+        {
+          "name": "common.Control.toggleGrid",
+          "type": "TOOL"
+        },
+        {
+          "group_items": [
+            {
+              "name": "common.Control.metricUnits",
+              "type": "TOOL"
+            },
+            {
+              "name": "common.Control.imperialUnits",
+              "type": "TOOL"
+            },
+            {
+              "name": "common.Control.mils",
+              "type": "TOOL"
+            }
+          ],
+          "group_name": "Units",
+          "type": "TB_GROUP"
+        }
+      ],
+      "name": "LEFT"
+    },
+    {
+      "contents": [
+        {
+          "name": "common.InteractiveSelection.selectionTool",
+          "type": "TOOL"
+        },
+        {
+          "type": "SEPARATOR"
+        },
+        {
+          "name": "plEditor.InteractiveDrawing.drawLine",
+          "type": "TOOL"
+        },
+        {
+          "name": "plEditor.InteractiveDrawing.drawRectangle",
+          "type": "TOOL"
+        },
+        {
+          "name": "plEditor.InteractiveDrawing.placeText",
+          "type": "TOOL"
+        },
+        {
+          "name": "plEditor.InteractiveDrawing.placeImage",
+          "type": "TOOL"
+        },
+        {
+          "name": "plEditor.InteractiveEdit.appendWorksheet",
+          "type": "TOOL"
+        },
+        {
+          "type": "SEPARATOR"
+        },
+        {
+          "name": "common.Interactive.deleteTool",
+          "type": "TOOL"
+        }
+      ],
+      "name": "RIGHT"
+    },
+    {
+      "contents": [
+        {
+          "name": "common.Control.new",
+          "type": "TOOL"
+        },
+        {
+          "name": "common.Control.open",
+          "type": "TOOL"
+        },
+        {
+          "name": "common.Control.save",
+          "type": "TOOL"
+        },
+        {
+          "type": "SEPARATOR"
+        },
+        {
+          "name": "common.Control.print",
+          "type": "TOOL"
+        },
+        {
+          "type": "SEPARATOR"
+        },
+        {
+          "name": "common.Interactive.undo",
+          "type": "TOOL"
+        },
+        {
+          "name": "common.Interactive.redo",
+          "type": "TOOL"
+        },
+        {
+          "type": "SEPARATOR"
+        },
+        {
+          "name": "common.Control.zoomRedraw",
+          "type": "TOOL"
+        },
+        {
+          "name": "common.Control.zoomInCenter",
+          "type": "TOOL"
+        },
+        {
+          "name": "common.Control.zoomOutCenter",
+          "type": "TOOL"
+        },
+        {
+          "name": "common.Control.zoomFitScreen",
+          "type": "TOOL"
+        },
+        {
+          "name": "common.Control.zoomTool",
+          "type": "TOOL"
+        },
+        {
+          "type": "SEPARATOR"
+        },
+        {
+          "name": "plEditor.EditorControl.ShowInspector",
+          "type": "TOOL"
+        },
+        {
+          "name": "plEditor.EditorControl.PreviewSettings",
+          "type": "TOOL"
+        },
+        {
+          "type": "SEPARATOR"
+        },
+        {
+          "name": "plEditor.EditorControl.LayoutNormalMode",
+          "type": "TOOL"
+        },
+        {
+          "name": "plEditor.EditorControl.LayoutEditMode",
+          "type": "TOOL"
+        },
+        {
+          "type": "SEPARATOR"
+        },
+        {
+          "name": "control.OriginSelector",
+          "type": "CONTROL"
+        },
+        {
+          "name": "control.PageSelect",
+          "type": "CONTROL"
+        }
+      ],
+      "name": "TOP_MAIN"
+    }
+  ]
+}
