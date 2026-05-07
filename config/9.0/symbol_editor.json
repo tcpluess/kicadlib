@@ -64,7 +64,7 @@
       "Description"
     ],
     "open_libs": [
-      "interface"
+      "drivers"
     ]
   },
   "library": {
@@ -129,7 +129,7 @@
       "axes_enabled": true,
       "fast_grid_1": 0,
       "fast_grid_2": 0,
-      "last_size": 0,
+      "last_size": 1,
       "line_width": 0.5,
       "min_spacing": 10.0,
       "override_connected": true,
