@@ -265,11 +265,11 @@
   "schematic": {
     "anchor": "rgb(0, 0, 255)",
     "aux_items": "rgb(252, 252, 252)",
-    "background": "rgb(0, 16, 35)",
+    "background": "rgb(0, 0, 72)",
     "brightened": "rgb(255, 0, 255)",
     "bus": "rgb(0, 255, 0)",
     "bus_junction": "rgb(0, 0, 132)",
-    "component_body": "rgb(0, 16, 35)",
+    "component_body": "rgb(0, 0, 72)",
     "component_outline": "rgb(0, 255, 255)",
     "cursor": "rgb(252, 252, 252)",
     "dnp_marker": "rgba(220, 9, 13, 0.702)",
