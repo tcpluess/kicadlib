@@ -3627,10 +3627,10 @@
 					)
 				)
 			)
-			(pin output non_logic
+			(pin passive non_logic
 				(at 12.7 -17.78 180)
 				(length 5.08)
-				(name "SENSE1"
+				(name "SENSE_1/2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3861,10 +3861,10 @@
 					)
 				)
 			)
-			(pin output non_logic
+			(pin passive non_logic
 				(at 12.7 -20.32 180)
 				(length 5.08)
-				(name "SENSE2"
+				(name "SENSE_3"
 					(effects
 						(font
 							(size 1.27 1.27)
