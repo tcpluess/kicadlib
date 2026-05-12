@@ -77,11 +77,23 @@
 		)
 		(symbol "stm32f303k_1_1"
 			(rectangle
-				(start -10.16 -38.1)
-				(end 10.16 -53.34)
+				(start -10.16 -33.02)
+				(end 10.16 -48.26)
 				(stroke
 					(width 0.3)
 					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 -38.1) (xy 10.16 -38.1)
+				)
+				(stroke
+					(width 0)
+					(type default)
 				)
 				(fill
 					(type none)
@@ -101,20 +113,8 @@
 			)
 			(polyline
 				(pts
-					(xy -10.16 -48.26) (xy 10.16 -48.26)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 -38.1) (xy -7.62 -36.83) (xy -10.16 -36.83) (xy -10.16 0) (xy 10.16 0) (xy 10.16 -36.83)
-					(xy 7.62 -36.83) (xy 7.62 -38.1)
+					(xy -7.62 -33.02) (xy -7.62 -31.75) (xy -10.16 -31.75) (xy -10.16 0) (xy 10.16 0) (xy 10.16 -31.75)
+					(xy 7.62 -31.75) (xy 7.62 -33.02)
 				)
 				(stroke
 					(width 0.3)
@@ -133,7 +133,7 @@
 				)
 			)
 			(text "PORT A"
-				(at 0 -40.64 0)
+				(at 0 -35.56 0)
 				(effects
 					(font
 						(size 2.54 2.54)
@@ -141,7 +141,7 @@
 				)
 			)
 			(text "PORT B"
-				(at 0 -45.72 0)
+				(at 0 -40.64 0)
 				(effects
 					(font
 						(size 2.54 2.54)
@@ -149,7 +149,7 @@
 				)
 			)
 			(text "PORT F"
-				(at 0 -50.8 0)
+				(at 0 -45.72 0)
 				(effects
 					(font
 						(size 2.54 2.54)
@@ -157,7 +157,7 @@
 				)
 			)
 			(pin bidirectional input_low
-				(at -15.24 -27.94 0)
+				(at -15.24 -22.86 0)
 				(length 5.08)
 				(name "RESET"
 					(effects
@@ -175,7 +175,7 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 -10.16 0)
+				(at 15.24 -10.16 180)
 				(length 5.08)
 				(name "VDDA/VREF+"
 					(effects
@@ -193,7 +193,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -20.32 0)
+				(at -15.24 -15.24 0)
 				(length 5.08)
 				(name "TMS/SWDIO"
 					(effects
@@ -217,7 +217,7 @@
 				(alternate "TSC_G4_IO3" bidirectional line)
 			)
 			(pin input clock
-				(at -15.24 -22.86 0)
+				(at -15.24 -17.78 0)
 				(length 5.08)
 				(name "TCK/SWCLK"
 					(effects
@@ -240,7 +240,7 @@
 				(alternate "PA14/USART2_TX" bidirectional line)
 			)
 			(pin input line
-				(at -15.24 -17.78 0)
+				(at -15.24 -12.7 0)
 				(length 5.08)
 				(name "TDI"
 					(effects
@@ -266,7 +266,7 @@
 				(alternate "PA15/~{SPI1_SS}" bidirectional line)
 			)
 			(pin output line
-				(at -15.24 -25.4 0)
+				(at -15.24 -20.32 0)
 				(length 5.08)
 				(name "TDO/SWO"
 					(effects
@@ -290,7 +290,7 @@
 				(alternate "PB3/USART2_TX" bidirectional line)
 			)
 			(pin input input_low
-				(at -15.24 -15.24 0)
+				(at -15.24 -10.16 0)
 				(length 5.08)
 				(name "TRST"
 					(effects
@@ -315,7 +315,7 @@
 				(alternate "PB4/USART2_RX" bidirectional line)
 			)
 			(pin input line
-				(at -15.24 -33.02 0)
+				(at -15.24 -27.94 0)
 				(length 5.08)
 				(name "BOOT0"
 					(effects
@@ -351,7 +351,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -58.42 90)
+				(at 0 -53.34 90)
 				(length 5.08)
 				(name ""
 					(effects
@@ -1943,7 +1943,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D"
-			(at 30.48 -2.54 0)
+			(at 2.54 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2008,8 +2008,8 @@
 		)
 		(symbol "stm32f303r_1_1"
 			(rectangle
-				(start -10.16 -50.8)
-				(end 10.16 -76.2)
+				(start -10.16 -33.02)
+				(end 10.16 -58.42)
 				(stroke
 					(width 0.3)
 					(type solid)
@@ -2020,7 +2020,7 @@
 			)
 			(polyline
 				(pts
-					(xy -10.16 -55.88) (xy 10.16 -55.88)
+					(xy -10.16 -38.1) (xy 10.16 -38.1)
 				)
 				(stroke
 					(width 0)
@@ -2032,7 +2032,7 @@
 			)
 			(polyline
 				(pts
-					(xy -10.16 -60.96) (xy 10.16 -60.96)
+					(xy -10.16 -43.18) (xy 10.16 -43.18)
 				)
 				(stroke
 					(width 0)
@@ -2044,7 +2044,7 @@
 			)
 			(polyline
 				(pts
-					(xy -10.16 -66.04) (xy 10.16 -66.04)
+					(xy -10.16 -48.26) (xy 10.16 -48.26)
 				)
 				(stroke
 					(width 0)
@@ -2056,7 +2056,7 @@
 			)
 			(polyline
 				(pts
-					(xy -10.16 -71.12) (xy 10.16 -71.12)
+					(xy -10.16 -53.34) (xy 10.16 -53.34)
 				)
 				(stroke
 					(width 0)
@@ -2068,8 +2068,8 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 -50.8) (xy -7.62 -49.53) (xy -10.16 -49.53) (xy -10.16 0) (xy 10.16 0) (xy 10.16 -49.53)
-					(xy 7.62 -49.53) (xy 7.62 -50.8)
+					(xy -7.62 -33.02) (xy -7.62 -31.75) (xy -10.16 -31.75) (xy -10.16 0) (xy 10.16 0) (xy 10.16 -31.75)
+					(xy 7.62 -31.75) (xy 7.62 -33.02)
 				)
 				(stroke
 					(width 0.3)
@@ -2088,7 +2088,7 @@
 				)
 			)
 			(text "PORT A"
-				(at 0 -53.34 0)
+				(at 0 -35.56 0)
 				(effects
 					(font
 						(size 2.54 2.54)
@@ -2096,7 +2096,7 @@
 				)
 			)
 			(text "PORT B"
-				(at 0 -58.42 0)
+				(at 0 -40.64 0)
 				(effects
 					(font
 						(size 2.54 2.54)
@@ -2104,7 +2104,7 @@
 				)
 			)
 			(text "PORT C"
-				(at 0 -63.5 0)
+				(at 0 -45.72 0)
 				(effects
 					(font
 						(size 2.54 2.54)
@@ -2112,7 +2112,7 @@
 				)
 			)
 			(text "PORT D"
-				(at 0 -68.58 0)
+				(at 0 -50.8 0)
 				(effects
 					(font
 						(size 2.54 2.54)
@@ -2120,7 +2120,7 @@
 				)
 			)
 			(text "PORT F"
-				(at 0 -73.66 0)
+				(at 0 -55.88 0)
 				(effects
 					(font
 						(size 2.54 2.54)
@@ -2128,7 +2128,7 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 -7.62 0)
+				(at 15.24 -10.16 180)
 				(length 5.08)
 				(name "VBAT"
 					(effects
@@ -2146,7 +2146,7 @@
 				)
 			)
 			(pin passive input_low
-				(at -15.24 -45.72 0)
+				(at -15.24 -22.86 0)
 				(length 5.08)
 				(name "RESET"
 					(effects
@@ -2164,7 +2164,7 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 -15.24 0)
+				(at 15.24 -15.24 180)
 				(length 5.08)
 				(name "VDDA"
 					(effects
@@ -2182,7 +2182,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -38.1 0)
+				(at -15.24 -15.24 0)
 				(length 5.08)
 				(name "TMS/SWDIO"
 					(effects
@@ -2200,7 +2200,7 @@
 				)
 			)
 			(pin input clock
-				(at -15.24 -40.64 0)
+				(at -15.24 -17.78 0)
 				(length 5.08)
 				(name "TCK/SWCLK"
 					(effects
@@ -2218,7 +2218,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -35.56 0)
+				(at -15.24 -12.7 0)
 				(length 5.08)
 				(name "TDI"
 					(effects
@@ -2236,7 +2236,7 @@
 				)
 			)
 			(pin output line
-				(at -15.24 -43.18 0)
+				(at -15.24 -20.32 0)
 				(length 5.08)
 				(name "TDO/SWO"
 					(effects
@@ -2254,7 +2254,7 @@
 				)
 			)
 			(pin input input_low
-				(at -15.24 -33.02 0)
+				(at -15.24 -10.16 0)
 				(length 5.08)
 				(name "TRST"
 					(effects
@@ -2272,7 +2272,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -33.02 180)
+				(at -15.24 -27.94 0)
 				(length 5.08)
 				(name "BOOT0"
 					(effects
@@ -2290,7 +2290,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -81.28 90)
+				(at 0 -63.5 90)
 				(length 5.08)
 				(name ""
 					(effects
@@ -4956,7 +4956,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D"
-			(at 12.7 0 0)
+			(at 2.54 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5021,11 +5021,35 @@
 		)
 		(symbol "stm32f405rg_1_1"
 			(rectangle
-				(start -10.16 -43.18)
-				(end 10.16 -68.58)
+				(start -10.16 -33.02)
+				(end 10.16 -58.42)
 				(stroke
 					(width 0.3)
 					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 -38.1) (xy 10.16 -38.1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 -43.18) (xy 10.16 -43.18)
+				)
+				(stroke
+					(width 0)
+					(type default)
 				)
 				(fill
 					(type none)
@@ -5057,32 +5081,8 @@
 			)
 			(polyline
 				(pts
-					(xy -10.16 -58.42) (xy 10.16 -58.42)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -10.16 -63.5) (xy 10.16 -63.5)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 -43.18) (xy -7.62 -41.91) (xy -10.16 -41.91) (xy -10.16 0) (xy 10.16 0) (xy 10.16 -41.91)
-					(xy 7.62 -41.91) (xy 7.62 -43.18)
+					(xy -7.62 -33.02) (xy -7.62 -31.75) (xy -10.16 -31.75) (xy -10.16 0) (xy 10.16 0) (xy 10.16 -31.75)
+					(xy 7.62 -31.75) (xy 7.62 -33.02)
 				)
 				(stroke
 					(width 0.3)
@@ -5101,7 +5101,7 @@
 				)
 			)
 			(text "PORT A"
-				(at 0 -45.72 0)
+				(at 0 -35.56 0)
 				(effects
 					(font
 						(size 2.54 2.54)
@@ -5109,7 +5109,7 @@
 				)
 			)
 			(text "PORT B"
-				(at 0 -50.8 0)
+				(at 0 -40.64 0)
 				(effects
 					(font
 						(size 2.54 2.54)
@@ -5117,7 +5117,7 @@
 				)
 			)
 			(text "PORT C"
-				(at 0 -55.88 0)
+				(at 0 -45.72 0)
 				(effects
 					(font
 						(size 2.54 2.54)
@@ -5125,7 +5125,7 @@
 				)
 			)
 			(text "PORT D"
-				(at 0 -60.96 0)
+				(at 0 -50.8 0)
 				(effects
 					(font
 						(size 2.54 2.54)
@@ -5133,7 +5133,7 @@
 				)
 			)
 			(text "PORT H"
-				(at 0 -66.04 0)
+				(at 0 -55.88 0)
 				(effects
 					(font
 						(size 2.54 2.54)
@@ -5141,7 +5141,7 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 -7.62 0)
+				(at 15.24 -10.16 180)
 				(length 5.08)
 				(name "VBAT"
 					(effects
@@ -5159,7 +5159,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -38.1 0)
+				(at -15.24 -22.86 0)
 				(length 5.08)
 				(name "~{RESET}"
 					(effects
@@ -5177,7 +5177,7 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 -15.24 0)
+				(at 15.24 -17.78 180)
 				(length 5.08)
 				(name "VSSA"
 					(effects
@@ -5195,7 +5195,7 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 -12.7 0)
+				(at 15.24 -15.24 180)
 				(length 5.08)
 				(name "VDDA"
 					(effects
@@ -5212,44 +5212,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -73.66 90)
-				(length 5.08)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -7.62 5.08 270)
-				(length 5.08)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
-				(at 15.24 -15.24 180)
+				(at 15.24 -25.4 180)
 				(length 5.08)
 				(name "VCAP1"
 					(effects
@@ -5266,26 +5230,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 5.08 270)
-				(length 5.08)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at -15.24 -30.48 0)
+				(at -15.24 -15.24 0)
 				(length 5.08)
 				(name "TMS/SWDIO"
 					(effects
@@ -5304,7 +5250,7 @@
 				(alternate "PA13" bidirectional line)
 			)
 			(pin passive line
-				(at 15.24 -10.16 180)
+				(at 15.24 -27.94 180)
 				(length 5.08)
 				(name "VCAP2"
 					(effects
@@ -5321,26 +5267,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 2.54 5.08 270)
-				(length 5.08)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "48"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at -15.24 -33.02 0)
+				(at -15.24 -17.78 0)
 				(length 5.08)
 				(name "TCK/SWCLK"
 					(effects
@@ -5359,7 +5287,7 @@
 				(alternate "PA14" input line)
 			)
 			(pin input line
-				(at -15.24 -27.94 0)
+				(at -15.24 -12.7 0)
 				(length 5.08)
 				(name "TDI"
 					(effects
@@ -5382,9 +5310,9 @@
 				(alternate "PA15/~{SPI1_SS}" input line)
 			)
 			(pin output line
-				(at -15.24 -35.56 0)
+				(at -15.24 -20.32 0)
 				(length 5.08)
-				(name "TDO/SWO/TRACESWO"
+				(name "TDO/SWO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5405,7 +5333,7 @@
 				(alternate "PB3/TIM2_CH2" output line)
 			)
 			(pin input line
-				(at -15.24 -25.4 0)
+				(at -15.24 -10.16 0)
 				(length 5.08)
 				(name "~{TRST}"
 					(effects
@@ -5428,7 +5356,7 @@
 				(alternate "PB4/TIM3_CH1" input line)
 			)
 			(pin passive line
-				(at 15.24 -20.32 180)
+				(at -15.24 -27.94 0)
 				(length 5.08)
 				(name "BOOT0"
 					(effects
@@ -5446,7 +5374,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -73.66 90)
+				(at 0 -63.5 90)
 				(length 5.08)
 				(name ""
 					(effects
@@ -5455,7 +5383,7 @@
 						)
 					)
 				)
-				(number "63"
+				(number "[18,63]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5464,7 +5392,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 5.08 270)
+				(at 0 5.08 270)
 				(length 5.08)
 				(name ""
 					(effects
@@ -5473,7 +5401,7 @@
 						)
 					)
 				)
-				(number "64"
+				(number "[19,32,48,64]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8308,7 +8236,7 @@
 					(justify left)
 				)
 			)
-			(text "PORT F"
+			(text "PORT H"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -11479,7 +11407,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D"
-			(at 12.7 2.54 0)
+			(at 5.08 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11591,7 +11519,7 @@
 					(type none)
 				)
 			)
-			(text "MCU"
+			(text "Φ MCU"
 				(at 0 -2.54 0)
 				(effects
 					(font
