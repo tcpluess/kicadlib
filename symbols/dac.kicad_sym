@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(symbol "dac124s085"
 		(pin_names
 			(offset 1.5)
@@ -9,8 +9,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -2.54 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19,44 +23,52 @@
 			)
 		)
 		(property "Value" "<value>"
-			(at -2.54 12.7 0)
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
 			(at 38.1 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 38.1 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 38.1 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Remarks" "12 Bits"
-			(at 0 5.08 0)
-			(do_not_autoplace)
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,8 +77,8 @@
 		)
 		(symbol "dac124s085_0_1"
 			(rectangle
-				(start -7.62 -11.43)
-				(end 7.62 -21.59)
+				(start -7.62 -24.13)
+				(end 7.62 -34.29)
 				(stroke
 					(width 0.3)
 					(type default)
@@ -77,7 +89,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 -16.51) (xy 7.62 -16.51)
+					(xy -7.62 -29.21) (xy 7.62 -29.21)
 				)
 				(stroke
 					(width 0)
@@ -89,8 +101,8 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 -11.43) (xy -5.08 -10.16) (xy -7.62 -10.16) (xy -7.62 10.16) (xy 7.62 10.16) (xy 7.62 -10.16)
-					(xy 5.08 -10.16) (xy 5.08 -11.43)
+					(xy -5.08 -24.13) (xy -5.08 -22.86) (xy -7.62 -22.86) (xy -7.62 0) (xy 7.62 0) (xy 7.62 -22.86)
+					(xy 5.08 -22.86) (xy 5.08 -24.13)
 				)
 				(stroke
 					(width 0.3)
@@ -102,7 +114,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -13.97) (xy -7.62 -13.97)
+					(xy 7.62 -26.67) (xy -7.62 -26.67)
 				)
 				(stroke
 					(width 0)
@@ -114,7 +126,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -19.05) (xy -7.62 -19.05)
+					(xy 7.62 -31.75) (xy -7.62 -31.75)
 				)
 				(stroke
 					(width 0)
@@ -127,106 +139,52 @@
 		)
 		(symbol "dac124s085_1_1"
 			(text "DAC"
-				(at 0 7.62 0)
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 2.54 2.54)
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 2.54 0)
-				(length 5.08)
-				(name "MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+			(text "# / ∩"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(pin input clock_low
-				(at -12.7 0 0)
-				(length 5.08)
-				(name "SCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+			(text "# / ∩"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(pin input input_low
-				(at -12.7 -2.54 0)
-				(length 5.08)
-				(name "SYNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+			(text "# / ∩"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(pin input non_logic
-				(at -12.7 -7.62 0)
-				(length 5.08)
-				(name "VREF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+			(text "# / ∩"
+				(at 0 -33.02 0)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
 					)
 				)
 			)
 			(pin power_in line
-				(at -5.08 -25.4 90)
-				(length 3.81)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 5.08 -25.4 90)
-				(length 3.81)
+				(at 0 5.08 270)
+				(length 5.08)
 				(name ""
 					(effects
 						(font
@@ -243,7 +201,7 @@
 				)
 			)
 			(pin output non_logic
-				(at 12.7 -12.7 180)
+				(at 12.7 -25.4 180)
 				(length 5.08)
 				(name "0"
 					(effects
@@ -261,7 +219,7 @@
 				)
 			)
 			(pin output non_logic
-				(at 12.7 -15.24 180)
+				(at 12.7 -27.94 180)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -279,7 +237,7 @@
 				)
 			)
 			(pin output non_logic
-				(at 12.7 -17.78 180)
+				(at 12.7 -30.48 180)
 				(length 5.08)
 				(name "2"
 					(effects
@@ -297,7 +255,7 @@
 				)
 			)
 			(pin output non_logic
-				(at 12.7 -20.32 180)
+				(at 12.7 -33.02 180)
 				(length 5.08)
 				(name "3"
 					(effects
@@ -307,6 +265,96 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -38.1 90)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input non_logic
+				(at -12.7 -20.32 0)
+				(length 5.08)
+				(name "VREF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -10.16 0)
+				(length 5.08)
+				(name "MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input input_low
+				(at -12.7 -15.24 0)
+				(length 5.08)
+				(name "SYNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock_low
+				(at -12.7 -12.7 0)
+				(length 5.08)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -324,8 +372,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -7.62 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -334,44 +386,52 @@
 			)
 		)
 		(property "Value" "<value>"
-			(at -7.62 10.16 0)
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
 			(at 25.4 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 25.4 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 43.18 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Remarks" "16 Bits"
-			(at 2.54 2.54 0)
-			(do_not_autoplace)
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -380,8 +440,8 @@
 		)
 		(symbol "dac8501_0_1"
 			(rectangle
-				(start -7.62 7.62)
-				(end 12.7 -15.24)
+				(start -10.16 0)
+				(end 10.16 -22.86)
 				(stroke
 					(width 0.3)
 					(type default)
@@ -393,123 +453,15 @@
 		)
 		(symbol "dac8501_1_1"
 			(text "DAC"
-				(at 2.54 5.08 0)
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 2.54 2.54)
 					)
 				)
 			)
-			(pin input non_logic
-				(at -12.7 0 0)
-				(length 5.08)
-				(name "VFB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input non_logic
-				(at -12.7 -2.54 0)
-				(length 5.08)
-				(name "VREF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 -7.62 0)
-				(length 5.08)
-				(name "MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input clock_low
-				(at -12.7 -10.16 0)
-				(length 5.08)
-				(name "SCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input input_low
-				(at -12.7 -12.7 0)
-				(length 5.08)
-				(name "CS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at -5.08 -20.32 90)
-				(length 5.08)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 10.16 -20.32 90)
+				(at 0 5.08 270)
 				(length 5.08)
 				(name ""
 					(effects
@@ -526,8 +478,44 @@
 					)
 				)
 			)
+			(pin input non_logic
+				(at -15.24 -10.16 0)
+				(length 5.08)
+				(name "VREF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input non_logic
+				(at 15.24 -15.24 180)
+				(length 5.08)
+				(name "VFB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output non_logic
-				(at 17.78 0 180)
+				(at 15.24 -10.16 180)
 				(length 5.08)
 				(name "VOUT"
 					(effects
@@ -537,6 +525,78 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input input_low
+				(at -15.24 -20.32 0)
+				(length 5.08)
+				(name "CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock_low
+				(at -15.24 -17.78 0)
+				(length 5.08)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -15.24 0)
+				(length 5.08)
+				(name "MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -27.94 90)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -554,8 +614,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -7.62 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -564,44 +628,52 @@
 			)
 		)
 		(property "Value" "<value>"
-			(at -7.62 10.16 0)
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
 			(at 25.4 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 25.4 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 43.18 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Remarks" "16 Bits"
-			(at 2.54 2.54 0)
-			(do_not_autoplace)
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -610,8 +682,8 @@
 		)
 		(symbol "dac8551_0_1"
 			(rectangle
-				(start -7.62 7.62)
-				(end 12.7 -15.24)
+				(start -10.16 0)
+				(end 10.16 -22.86)
 				(stroke
 					(width 0.3)
 					(type default)
@@ -623,123 +695,15 @@
 		)
 		(symbol "dac8551_1_1"
 			(text "DAC"
-				(at 2.54 5.08 0)
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 2.54 2.54)
 					)
 				)
 			)
-			(pin input non_logic
-				(at -12.7 0 0)
-				(length 5.08)
-				(name "VFB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input non_logic
-				(at -12.7 -2.54 0)
-				(length 5.08)
-				(name "VREF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 -7.62 0)
-				(length 5.08)
-				(name "MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input clock_low
-				(at -12.7 -10.16 0)
-				(length 5.08)
-				(name "SCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input input_low
-				(at -12.7 -12.7 0)
-				(length 5.08)
-				(name "CS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at -5.08 -20.32 90)
-				(length 5.08)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 10.16 -20.32 90)
+				(at 0 5.08 270)
 				(length 5.08)
 				(name ""
 					(effects
@@ -756,8 +720,44 @@
 					)
 				)
 			)
+			(pin input non_logic
+				(at -15.24 -10.16 0)
+				(length 5.08)
+				(name "VREF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input non_logic
+				(at 15.24 -15.24 180)
+				(length 5.08)
+				(name "VFB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output non_logic
-				(at 17.78 0 180)
+				(at 15.24 -10.16 180)
 				(length 5.08)
 				(name "VOUT"
 					(effects
@@ -767,6 +767,78 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input input_low
+				(at -15.24 -20.32 0)
+				(length 5.08)
+				(name "CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock_low
+				(at -15.24 -17.78 0)
+				(length 5.08)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -15.24 0)
+				(length 5.08)
+				(name "MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -27.94 90)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -784,8 +856,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -2.54 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -794,44 +870,52 @@
 			)
 		)
 		(property "Value" "<value>"
-			(at -2.54 10.16 0)
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
 			(at 25.4 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 25.4 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at -30.48 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Remarks" "16 Bits"
-			(at 2.54 2.54 0)
-			(do_not_autoplace)
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -840,8 +924,8 @@
 		)
 		(symbol "dac8560_0_1"
 			(rectangle
-				(start -7.62 7.62)
-				(end 12.7 -15.24)
+				(start -10.16 0)
+				(end 10.16 -22.86)
 				(stroke
 					(width 0.3)
 					(type default)
@@ -853,123 +937,15 @@
 		)
 		(symbol "dac8560_1_1"
 			(text "DAC"
-				(at 2.54 5.08 0)
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 2.54 2.54)
 					)
 				)
 			)
-			(pin input non_logic
-				(at -12.7 0 0)
-				(length 5.08)
-				(name "VFB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 -5.08 0)
-				(length 5.08)
-				(name "MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input clock_low
-				(at -12.7 -7.62 0)
-				(length 5.08)
-				(name "SCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input input_low
-				(at -12.7 -10.16 0)
-				(length 5.08)
-				(name "SYNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional non_logic
-				(at -12.7 -12.7 0)
-				(length 5.08)
-				(name "VREF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at -5.08 -20.32 90)
-				(length 5.08)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 10.16 -20.32 90)
+				(at 0 5.08 270)
 				(length 5.08)
 				(name ""
 					(effects
@@ -986,8 +962,44 @@
 					)
 				)
 			)
+			(pin bidirectional non_logic
+				(at -15.24 -10.16 0)
+				(length 5.08)
+				(name "VREF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input non_logic
+				(at 15.24 -15.24 180)
+				(length 5.08)
+				(name "VFB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output non_logic
-				(at 17.78 0 180)
+				(at 15.24 -10.16 180)
 				(length 5.08)
 				(name "VOUT"
 					(effects
@@ -997,6 +1009,78 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input input_low
+				(at -15.24 -20.32 0)
+				(length 5.08)
+				(name "SYNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock_low
+				(at -15.24 -17.78 0)
+				(length 5.08)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -15.24 0)
+				(length 5.08)
+				(name "MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -27.94 90)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1014,8 +1098,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 7.62 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1025,6 +1113,8 @@
 		)
 		(property "Value" "<value>"
 			(at 7.62 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1034,34 +1124,41 @@
 		)
 		(property "Footprint" ""
 			(at 2.54 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 2.54 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 2.54 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Remarks" "12 Bits"
 			(at 0 2.54 0)
-			(do_not_autoplace)
+			(show_name no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,35 +1212,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 0 0)
-				(length 5.08)
-				(name "MOSI"
+			(pin power_in line
+				(at 5.08 -22.86 90)
+				(length 3.81)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input clock
-				(at -12.7 -2.54 0)
-				(length 5.08)
-				(name "SCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1169,17 +1248,35 @@
 					)
 				)
 			)
-			(pin input input_low
-				(at -12.7 -7.62 0)
+			(pin input clock
+				(at -12.7 -2.54 0)
 				(length 5.08)
-				(name "SHDN"
+				(name "SCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 0 0)
+				(length 5.08)
+				(name "MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1205,17 +1302,35 @@
 					)
 				)
 			)
-			(pin input non_logic
-				(at -12.7 -15.24 0)
+			(pin input input_low
+				(at -12.7 -7.62 0)
 				(length 5.08)
-				(name "VREF"
+				(name "SHDN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output non_logic
+				(at 12.7 -17.78 180)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1259,17 +1374,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 5.08 -22.86 90)
-				(length 3.81)
-				(name ""
+			(pin input non_logic
+				(at -12.7 -15.24 0)
+				(length 5.08)
+				(name "VREF"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1288,24 +1403,6 @@
 					)
 				)
 				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output non_logic
-				(at 12.7 -17.78 180)
-				(length 5.08)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
