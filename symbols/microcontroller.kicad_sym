@@ -12517,10 +12517,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at 15.24 -33.02 180)
 				(length 5.08)
-				(name "I/O"
+				(name "BOOT0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12534,7 +12534,7 @@
 						)
 					)
 				)
-				(alternate "BOOT0" input line)
+				(alternate "I" input line)
 			)
 		)
 		(symbol "stm32l011d3_4_1"
