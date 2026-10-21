@@ -7227,7 +7227,7 @@
 						)
 					)
 				)
-				(alternate "ADC123_IN10" passive line)
+				(alternate "ADC123_IN10" passive non_logic)
 				(alternate "OTG_HS_ULPI_STP" passive line)
 			)
 			(pin passive line
